@@ -1,0 +1,18 @@
+! ** JCreator Workspace File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.00"
+LABEL := "Analisador_Sintatico"
+
+! Start Project Structure
+#[BeginProject]SOURCE := "\\Analisador_Sintatico.jcp" #[EndProject]
+
+! Start Last Document Structure
+#[BeginFile]SOURCE := "\\src\\Analex.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\PalavrasReservadas.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\AnalisadorSintatico.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\Pascalex.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\Pascales.java" #[EndFile]
+
+! Start Breakpoint Structure
+

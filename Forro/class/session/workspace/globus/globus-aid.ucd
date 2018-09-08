@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="globus-aid" size="1028,628" id="session.workspace.globus" metadata="uml2-1.0" initialized="true" tag="10" key="323030363034313120466F72726F">
+  <children xsi:type="editmodel:ClassEditModel" name="BlockingWorkspaceDriver" location="398,251" size="205,139" id="session.workspace.globus/BlockingWorkspaceDriver" runTimeClassModel="requireUses(Ljava.lang.String;),isRegistered(Ljava.lang.String;),registerLink(Ljava.lang.String;Ljava.lang.String;),BlockingWorkspaceDriver(Ljava.lang.String;Lsession.workspace.LocationDriver;),invoke(Ljava.lang.String;[Lsession.datatype.Datatype;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="154,90">
+      <children xsi:type="editmodel:MethodEditModel" name="BlockingWorkspaceDriver" id="session.workspace.globus/BlockingWorkspaceDriver#BlockingWorkspaceDriver(Ljava.lang.String;Lsession.workspace.LocationDriver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="invoke" id="session.workspace.globus/BlockingWorkspaceDriver#invoke(Ljava.lang.String;[Lsession.datatype.Datatype;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isRegistered" id="session.workspace.globus/BlockingWorkspaceDriver#isRegistered(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="registerLink" id="session.workspace.globus/BlockingWorkspaceDriver#registerLink(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="requireUses" id="session.workspace.globus/BlockingWorkspaceDriver#requireUses(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="session.datatype/DatatypeFactory@datatypeFactory+session.workspace.globus/BlockingWorkspaceDriver@" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="195,139" id="session.datatype/DatatypeFactory@datatypeFactory+session.workspace.globus/BlockingWorkspaceDriver@|session.workspace.globus/BlockingWorkspaceDriver#" attachSource="true" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="586,397" size="0,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="datatypeFactory" location="0,10" id="session.datatype/DatatypeFactory@datatypeFactory+session.workspace.globus/BlockingWorkspaceDriver@|session.datatype/DatatypeFactory#datatypeFactory" multiplicityLabel="//@children.0/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.0/@sourceConnections.0/@children.2/@children.0" navigable="true" changeability="2">
+        <children xsi:type="editmodel:LabelEditModel" name=" - datatypeFactory" location="650,468" size="89,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="721,441" size="18,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="session.workspace/LocationDriver@driver+session.workspace.globus/BlockingWorkspaceDriver@" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,5" id="session.workspace/LocationDriver@driver+session.workspace.globus/BlockingWorkspaceDriver@|session.workspace.globus/BlockingWorkspaceDriver#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="driver" location="265,206" id="session.workspace/LocationDriver@driver+session.workspace.globus/BlockingWorkspaceDriver@|session.workspace/LocationDriver#driver" multiplicityLabel="//@children.0/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.0/@sourceConnections.1/@children.2/@children.0" navigable="true" changeability="2">
+        <children xsi:type="editmodel:LabelEditModel" name=" - driver" location="322,236" size="38,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="322,263" size="18,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="session.workspace.globus/BlockingWorkspaceDriver->session.workspace/LocationDriver" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-5" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="260,211"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="session.workspace.globus/BlockingWorkspaceDriver->session.datatype/DatatypeFactory" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="204,139" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,-10"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.0/@sourceConnections.3" name="DatatypeFactory" location="746,451" size="262,157" id="session.datatype/DatatypeFactory" runTimeClassModel="newInstance(),setContents(Lsession.datatype.Datatype;Lsession.datatype.Datatype;),newInstance(Lsession.datatype.Datatype;),newInstance(Ljava.lang.String;),getInstance(),recycle(Lsession.datatype.Datatype;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,108">
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="session.datatype/DatatypeFactory#getInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="newInstance" id="session.datatype/DatatypeFactory#newInstance(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="newInstance" id="session.datatype/DatatypeFactory#newInstance(Lsession.datatype.Datatype;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="newInstance" id="session.datatype/DatatypeFactory#newInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="recycle" id="session.datatype/DatatypeFactory#recycle(Lsession.datatype.Datatype;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setContents" id="session.datatype/DatatypeFactory#setContents(Lsession.datatype.Datatype;Lsession.datatype.Datatype;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1 //@children.0/@sourceConnections.2" name="LocationDriver" location="50,50" size="265,211" id="session.workspace/LocationDriver" runTimeClassModel="registerProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;),usesPortList(Ljava.lang.String;),invokeAtModel(Ljava.lang.String;[Lsession.datatype.Datatype;),providesPortList(Ljava.lang.String;),bindUsesPort(Ljava.lang.String;Ljava.lang.String;Lsession.workspace.WorkspaceDriver;Ljava.lang.String;Lmodel.BindingProperties;),getInstance(Ljava.lang.String;),probe(Ljava.lang.String;),addModel(Ljava.lang.String;Lmodel.ModelEmulator;),getInstance(),contextFactory">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,162">
+      <children xsi:type="editmodel:MethodEditModel" name="addModel" id="session.workspace/LocationDriver#addModel(Ljava.lang.String;Lmodel.ModelEmulator;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="bindUsesPort" id="session.workspace/LocationDriver#bindUsesPort(Ljava.lang.String;Ljava.lang.String;Lsession.workspace.WorkspaceDriver;Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="session.workspace/LocationDriver#getInstance(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="session.workspace/LocationDriver#getInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="invokeAtModel" id="session.workspace/LocationDriver#invokeAtModel(Ljava.lang.String;[Lsession.datatype.Datatype;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="probe" id="session.workspace/LocationDriver#probe(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="providesPortList" id="session.workspace/LocationDriver#providesPortList(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="registerProvidesPort" id="session.workspace/LocationDriver#registerProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="usesPortList" id="session.workspace/LocationDriver#usesPortList(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true"/>
+</editmodel:ClassDiagramEditModel>

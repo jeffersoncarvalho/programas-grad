@@ -1,0 +1,64 @@
+! ** JCreator Project File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.10"
+LABEL := "Tetris"
+JDKPROFILE := "j2sdk1.4.1_03"
+ACTIVE := "1"
+OUTPUTPATH := "\\classes"
+COMPILER := "<Default>"
+
+! Start RunTime Configuration Structure
+#[BeginRunTime]LABEL := "<Default>" RUNAPPLIC := "" RUNAPPLET := "" PARAM := "" RUN := "tetris.gui.Interface" CHECK := "10" #[EndRunTime]
+! Start Required Libraries Structure
+
+! Start Project Folder Structure
+#[BeginFolder]
+LABEL := "Root"
+FILTER := ""
+
+#[BeginFolder]
+LABEL := "tetris"
+FILTER := ""
+
+#[BeginFolder]
+LABEL := "piece"
+FILTER := ""
+
+#[BeginFile]SOURCE := "\\src\\tetris\\piece\\PieceN.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\piece\\PieceT.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\piece\\PieceSquare.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\piece\\PieceL.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\piece\\Piece.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\piece\\PieceI.java" #[EndFile]
+#[EndFolder]
+#[BeginFolder]
+LABEL := "table"
+FILTER := ""
+
+#[BeginFile]SOURCE := "\\src\\tetris\\table\\TableRules.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\table\\Table.java" #[EndFile]
+#[EndFolder]
+#[BeginFolder]
+LABEL := "gui"
+FILTER := ""
+
+#[BeginFile]SOURCE := "\\src\\tetris\\gui\\DrawPanel.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\gui\\DrawPaneForNext.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\gui\\Interface.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\gui\\ControlPanel.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\gui\\KeyHandler.java" #[EndFile]
+#[EndFolder]
+#[BeginFolder]
+LABEL := "util"
+FILTER := ""
+
+#[BeginFile]SOURCE := "\\src\\tetris\\util\\TetrisConstants.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\util\\Point.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\util\\Direction.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\util\\Player.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\util\\GameController.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\util\\Teste.java" #[EndFile]
+#[EndFolder]
+#[EndFolder]
+#[EndFolder]

@@ -1,0 +1,32 @@
+create component session.rmi.componentA 169.254.144.198/ForroDriver
+java.rmi.UnknownHostException: Unknown host: 169.254.144.198/ForroDriver; nested exception is: 
+	java.net.UnknownHostException: 169.254.144.198/ForroDriver
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(Unknown Source)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(Unknown Source)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(Unknown Source)
+	at sun.rmi.server.UnicastRef.newCall(Unknown Source)
+	at sun.rmi.registry.RegistryImpl_Stub.lookup(Unknown Source)
+	at forrocore.ForroDriver.getRMIService(ForroDriver.java:872)
+	at forrocore.ForroDriver.callRemoteExecute(ForroDriver.java:979)
+	at forrocore.ForroDriver.execute(ForroDriver.java:261)
+	at frontendParserCCACaffeine_test_dummy.DummyCommandInstantiateAction.instantiate(DummyCommandInstantiateAction.java:40)
+	at frontendParserCCACaffeine_command_parser.CommandInstantiateParser.parse(CommandInstantiateParser.java:43)
+	at frontendParserCCACaffeine_command_main.CommandParser.parse(CommandParser.java:250)
+	at frontendAdaptor.FrontAdaptor.<init>(FrontAdaptor.java:43)
+	at forrocore.ForroDriver.initForro(ForroDriver.java:853)
+	at forrocore.ForroDriver.main(ForroDriver.java:893)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.genady.rmi.logger.Runner.main(Unknown Source)
+Caused by: java.net.UnknownHostException: 169.254.144.198/ForroDriver
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(Unknown Source)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(Unknown Source)
+	... 19 more

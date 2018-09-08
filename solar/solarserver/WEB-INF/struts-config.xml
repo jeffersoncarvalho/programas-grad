@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+    "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+
+	<!-- ======================================== Form Bean Definitions -->
+
+	 
+	<!-- =================================== Global Exception Definitions -->
+	<!--
+		<global-exceptions>
+		<exception key="error.required" type="org.springframework.dao.DataAccessException"
+		path="/dataAccessFailure.jsp"/>
+		</global-exceptions>
+	-->
+	<!-- =================================== Global Forward Definitions -->
+
+
+
+	<!-- =================================== Action Mapping Definitions -->
+
+	<action-mappings>
+
+		 
+
+		<action path="/login"
+			type= "br.ufc.lia.es.solarmeweb.action.LoginAction" />
+			 
+		 
+
+		 
+	</action-mappings>
+
+
+	<!-- ================================ Message Resources Definitions -->
+
+	<!-- <message-resources parameter="messages"/> -->
+
+	<!-- ======================================= Plug Ins Configuration -->
+
+
+	<!--  
+		<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property
+		property="pathnames" value="/WEB-INF/validator-rules.xml,
+		/WEB-INF/validation.xml"/>
+		</plug-in>
+	-->
+</struts-config>
+
+
+
+

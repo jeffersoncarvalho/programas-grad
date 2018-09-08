@@ -1,0 +1,15 @@
+! ** JCreator Workspace File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.00"
+LABEL := "Serpente UDP"
+
+! Start Project Structure
+#[BeginProject]SOURCE := "\\Serpente UDP.jcp" #[EndProject]
+
+! Start Last Document Structure
+#[BeginFile]SOURCE := "\\src\\DrawPanel.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\ServerSnake.java" #[EndFile]
+
+! Start Breakpoint Structure
+

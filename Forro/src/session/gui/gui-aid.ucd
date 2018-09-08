@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="gui-aid" size="1358,1322" id="session.gui" metadata="uml2-1.0" initialized="true" scrolledX="395" scrolledY="-20" tag="10" key="323030363034313120466F72726F">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="FrontEnd" location="50,50" size="99,85" id="session.gui/FrontEnd" runTimeClassModel="FrontEnd(Lsession.SessionDriver;),run()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,36">
+      <children xsi:type="editmodel:MethodEditModel" name="FrontEnd" id="session.gui/FrontEnd#FrontEnd(Lsession.SessionDriver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="session.gui/FrontEnd#run()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="session.gui/FrontEnd@frontEnd+session/AbstractSessionDriver@" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="frontEnd" location="99,65" id="session.gui/FrontEnd@frontEnd+session/AbstractSessionDriver@|session.gui/FrontEnd#frontEnd" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - frontEnd" location="156,95" size="51,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="156,122" size="18,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" id="session.gui/FrontEnd@frontEnd+session/AbstractSessionDriver@|session/AbstractSessionDriver#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="session/SessionDriver@handler+session.gui/FrontEnd@" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="79,85" id="session/SessionDriver@handler+session.gui/FrontEnd@|session.gui/FrontEnd#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="handler" location="10,10" id="session/SessionDriver@handler+session.gui/FrontEnd@|session/SessionDriver#handler" multiplicityLabel="//@children.0/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.0/@sourceConnections.1/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - handler" location="614,324" size="46,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="594,324" size="6,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.gui/FrontEnd->session/SessionDriver" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="89,85" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.3/@sourceConnections.3 //@children.2/@sourceConnections.1" name="SessionGUI" location="876,854" size="154,373" id="session.gui/SessionGUI" runTimeClassModel="SessionGUI(Lsession.SessionDriver;),hGAP15,hGAP20,showFrame(),hGAP5,vGAP15,createLaunchedTree(Z),vGAP20,hGAP10,vGAP30,vGAP10,createButton(Ljava.awt.event.ActionListener;Ljava.lang.String;Ljava.lang.String;),hGAP25,vGAP25,vGAP2,hGAP2,hGAP30,vGAP5">
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,252">
+      <children xsi:type="editmodel:AttributeEditModel" name="hGAP10" id="session.gui/SessionGUI#hGAP10"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hGAP15" id="session.gui/SessionGUI#hGAP15"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hGAP2" id="session.gui/SessionGUI#hGAP2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hGAP20" id="session.gui/SessionGUI#hGAP20"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hGAP25" id="session.gui/SessionGUI#hGAP25"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hGAP30" id="session.gui/SessionGUI#hGAP30"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hGAP5" id="session.gui/SessionGUI#hGAP5"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vGAP10" id="session.gui/SessionGUI#vGAP10"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vGAP15" id="session.gui/SessionGUI#vGAP15"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vGAP2" id="session.gui/SessionGUI#vGAP2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vGAP20" id="session.gui/SessionGUI#vGAP20"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vGAP25" id="session.gui/SessionGUI#vGAP25"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vGAP30" id="session.gui/SessionGUI#vGAP30"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vGAP5" id="session.gui/SessionGUI#vGAP5"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="131,72">
+      <children xsi:type="editmodel:MethodEditModel" name="SessionGUI" id="session.gui/SessionGUI#SessionGUI(Lsession.SessionDriver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createButton" id="session.gui/SessionGUI#createButton(Ljava.awt.event.ActionListener;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createLaunchedTree" id="session.gui/SessionGUI#createLaunchedTree(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="showFrame" id="session.gui/SessionGUI#showFrame()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.gui/SessionGUI->session/SessionDriver" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="183,502"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ForroSim" location="1166,344" size="101,67" id="session.gui/ForroSim" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="session.gui/ForroSim#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.gui/ForroSim->session/SessionDriver" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,33" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="183,33"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.gui/ForroSim->session.gui/SessionGUI" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,57" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="144,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="AbstractSessionDriver" location="572,906" size="234,391" id="session/AbstractSessionDriver" runTimeClassModel="startWorkspace(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),startLocation(Ljava.lang.String;),isSecure(),startFrontEnd(),bindUsesPort(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Lmodel.BindingProperties;),startModel(Ljava.lang.String;Ljava.lang.String;Lmodel.ModelEmulator;),startLink(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),implList(Ljava.lang.String;[Ljava.lang.String;),registerProvidesPort(Ljava.lang.String;Ljava.lang.String;Lmodel.BindingProperties;),probe(Ljava.lang.String;[Ljava.lang.String;),verify([B),AbstractSessionDriver(Ljava.lang.String;Ljava.lang.Object;Lsession.SessionsHandler;),bindPorts(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Lmodel.BindingProperties;),getSessionSig(),usesPortList(Ljava.lang.String;Ljava.lang.String;),locationSet(),getSessionName(),startGUI(),providesPortList(Ljava.lang.String;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="139,342">
+      <children xsi:type="editmodel:MethodEditModel" name="AbstractSessionDriver" id="session/AbstractSessionDriver#AbstractSessionDriver(Ljava.lang.String;Ljava.lang.Object;Lsession.SessionsHandler;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="bindPorts" id="session/AbstractSessionDriver#bindPorts(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="bindUsesPort" id="session/AbstractSessionDriver#bindUsesPort(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSessionName" id="session/AbstractSessionDriver#getSessionName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSessionSig" id="session/AbstractSessionDriver#getSessionSig()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="implList" id="session/AbstractSessionDriver#implList(Ljava.lang.String;[Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isSecure" id="session/AbstractSessionDriver#isSecure()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="locationSet" id="session/AbstractSessionDriver#locationSet()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="probe" id="session/AbstractSessionDriver#probe(Ljava.lang.String;[Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="providesPortList" id="session/AbstractSessionDriver#providesPortList(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="registerProvidesPort" id="session/AbstractSessionDriver#registerProvidesPort(Ljava.lang.String;Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startFrontEnd" id="session/AbstractSessionDriver#startFrontEnd()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startGUI" id="session/AbstractSessionDriver#startGUI()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startLink" id="session/AbstractSessionDriver#startLink(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startLocation" id="session/AbstractSessionDriver#startLocation(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startModel" id="session/AbstractSessionDriver#startModel(Ljava.lang.String;Ljava.lang.String;Lmodel.ModelEmulator;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startWorkspace" id="session/AbstractSessionDriver#startWorkspace(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="usesPortList" id="session/AbstractSessionDriver#usesPortList(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="verify" id="session/AbstractSessionDriver#verify([B)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session/AbstractSessionDriver->session.gui/FrontEnd" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="99,75"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="session/SessionDriver&lt;-session/AbstractSessionDriver" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.1/@children.1" sourceEnd="//@children.3/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="106,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,512"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session/AbstractSessionDriver->session/SessionDriver" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="116,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="91,512"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session/AbstractSessionDriver->session.gui/SessionGUI" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.3/@children.2" label="//@children.3/@sourceConnections.3/@children.0" sourceEnd="//@children.3/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="234,160" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,212"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.0/@sourceConnections.1 //@children.0/@sourceConnections.2 //@children.3/@sourceConnections.1 //@children.3/@sourceConnections.2 //@children.2/@sourceConnections.0 //@children.1/@sourceConnections.0" name="SessionDriver" location="597,344" size="183,512" id="session/SessionDriver" runTimeClassModel="startFrontEnd(),startModel(Ljava.lang.String;Ljava.lang.String;Lmodel.ModelEmulator;),implList(Ljava.lang.String;[Ljava.lang.String;),verify([B),bindPorts(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Lmodel.BindingProperties;),usesPortList(Ljava.lang.String;Ljava.lang.String;),locationSet(),getSessionName(),secure,startLocation(Ljava.lang.String;),startWorkspace(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),isSecure(),insecure,sessionName,bindUsesPort(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Lmodel.BindingProperties;),startLink(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),probe(Ljava.lang.String;[Ljava.lang.String;),registerProvidesPort(Ljava.lang.String;Ljava.lang.String;Lmodel.BindingProperties;),userHomeDir,getSessionSig(),hostName,packageName,startGUI(),providesPortList(Ljava.lang.String;Ljava.lang.String;),forroSrcPath">
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="forroSrcPath" id="session/SessionDriver#forroSrcPath"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hostName" id="session/SessionDriver#hostName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="insecure" id="session/SessionDriver#insecure"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="packageName" id="session/SessionDriver#packageName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="secure" id="session/SessionDriver#secure"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sessionName" id="session/SessionDriver#sessionName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="userHomeDir" id="session/SessionDriver#userHomeDir"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,324">
+      <children xsi:type="editmodel:MethodEditModel" name="bindPorts" id="session/SessionDriver#bindPorts(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="bindUsesPort" id="session/SessionDriver#bindUsesPort(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSessionName" id="session/SessionDriver#getSessionName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSessionSig" id="session/SessionDriver#getSessionSig()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="implList" id="session/SessionDriver#implList(Ljava.lang.String;[Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isSecure" id="session/SessionDriver#isSecure()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="locationSet" id="session/SessionDriver#locationSet()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="probe" id="session/SessionDriver#probe(Ljava.lang.String;[Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="providesPortList" id="session/SessionDriver#providesPortList(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="registerProvidesPort" id="session/SessionDriver#registerProvidesPort(Ljava.lang.String;Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startFrontEnd" id="session/SessionDriver#startFrontEnd()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startGUI" id="session/SessionDriver#startGUI()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startLink" id="session/SessionDriver#startLink(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startLocation" id="session/SessionDriver#startLocation(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startModel" id="session/SessionDriver#startModel(Ljava.lang.String;Ljava.lang.String;Lmodel.ModelEmulator;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startWorkspace" id="session/SessionDriver#startWorkspace(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="usesPortList" id="session/SessionDriver#usesPortList(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="verify" id="session/SessionDriver#verify([B)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="session/SessionDriver@sessionDriver+session.gui/SessionGUI@" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="sessionDriver" location="173,502" id="session/SessionDriver@sessionDriver+session.gui/SessionGUI@|session/SessionDriver#sessionDriver" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.4/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" # sessionDriver" location="684,863" size="79,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="777,863" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" id="session/SessionDriver@sessionDriver+session.gui/SessionGUI@|session.gui/SessionGUI#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true"/>
+</editmodel:ClassDiagramEditModel>

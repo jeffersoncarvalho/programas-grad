@@ -1,0 +1,142 @@
+import javax.swing.*;
+import java.awt.event.*;
+import java.awt.*;
+
+public class DesenhaFormas extends JFrame implements ActionListener
+{
+	private JPanel painelBotoes;
+	private JLabel labelX1,labelX2,labelY1,labelY2,labelA,labelB;
+	private JTextField campoX1,campoX2,campoY1,campoY2,campoA,campoB;
+	private JButton botaoDesenha, botaoBox,botaoFuncao;
+	private PainelDesenho meuPainel;
+
+  public DesenhaFormas()
+  {
+	super("Desenha Formas");
+	
+	meuPainel=new PainelDesenho();
+ 	meuPainel.setBackground(Color.white);
+
+	labelX1=new JLabel("X1");
+	labelX2=new JLabel("X2");
+	labelY1=new JLabel("Y1");
+	labelY2=new JLabel("Y2");
+	labelA=new JLabel("a");
+	labelB=new JLabel("b");
+	
+	campoX1=new JTextField(4);
+	campoX2=new JTextField(4);
+	campoY1=new JTextField(4);
+	campoY2=new JTextField(4);
+	campoA=new JTextField(4);
+	campoB=new JTextField(4);
+
+	campoX1.setText("0");
+	campoX2.setText("0");
+	campoY1.setText("0");
+	campoY2.setText("0");
+	campoA.setText("0");
+	campoB.setText("0");
+
+
+	
+	botaoDesenha=new JButton("Desenha");
+	botaoDesenha.addActionListener(this);
+	
+	botaoBox=new JButton("Caixa");
+	botaoBox.addActionListener(this);
+
+	botaoFuncao=new JButton("Função");
+	botaoFuncao.addActionListener(this);
+
+	painelBotoes=new JPanel();
+	painelBotoes.setLayout(new GridLayout(15,1));
+	
+	painelBotoes.add(labelX1);
+	painelBotoes.add(campoX1);
+	painelBotoes.add(labelX2);
+	painelBotoes.add(campoX2);
+	painelBotoes.add(labelY1);
+	painelBotoes.add(campoY1);
+	painelBotoes.add(labelY2);
+	painelBotoes.add(campoY2);
+	painelBotoes.add(labelA);
+	painelBotoes.add(campoA);
+	painelBotoes.add(labelB);
+	painelBotoes.add(campoB);
+
+	painelBotoes.add(botaoDesenha);
+	painelBotoes.add(botaoBox);
+	painelBotoes.add(botaoFuncao);
+
+	Container c=getContentPane();
+	c.add(meuPainel,BorderLayout.CENTER);
+        c.add(painelBotoes,BorderLayout.WEST);
+
+	setSize(500,400);
+	show();
+	
+  }
+  public void actionPerformed(ActionEvent e)
+  {
+	int tempX1=0,tempX2=0,tempY1=0,tempY2=0,tempa=0,tempb=0;
+	int coef=0;
+	
+	tempX1=Integer.parseInt(campoX1.getText());
+	tempX2=Integer.parseInt(campoX2.getText());
+	tempY1=Integer.parseInt(campoY1.getText());
+	tempY2=Integer.parseInt(campoY2.getText());   
+	tempa=Integer.parseInt(campoA.getText());
+        tempb=Integer.parseInt(campoB.getText());
+		 
+
+   if(e.getSource()==botaoDesenha)
+   {
+	
+	meuPainel.setValores(tempX1,tempX2,tempY1,tempY2);
+
+	if((Math.abs(tempX1)-Math.abs(tempX2))!=0)
+	{
+	 coef=(int)(tempY2-tempY1)/(tempX2-tempX1);
+	 coef=Math.abs(coef);
+	}
+
+	if(tempX1==tempX2)	
+		meuPainel.draw(PainelDesenho.LV);
+	else
+	 if(tempY1==tempY2)
+		  meuPainel.draw(PainelDesenho.LH);
+	 else
+	   if(coef==1)
+		    meuPainel.draw(PainelDesenho.LD);
+    
+   }
+   else
+	if(e.getSource()==botaoBox)
+	{
+		meuPainel.setValores(tempX1,tempX2,tempY1,tempY2);
+		meuPainel.draw(PainelDesenho.BOX);
+	}
+	else
+	{
+		
+		 meuPainel.setValoresFuncao(tempX1,tempX2,tempa,tempb);
+		 meuPainel.draw(PainelDesenho.LQ);
+	}
+		  
+  }//fim
+
+  public static void main (String args[])
+  {
+	DesenhaFormas app=new DesenhaFormas();
+	
+	app.addWindowListener(
+				new WindowAdapter()
+				{
+				   public void windowClosing(WindowEvent e)
+				   { System.exit(0);}
+				}
+			);	
+ } 
+
+ }

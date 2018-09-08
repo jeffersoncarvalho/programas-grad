@@ -1,0 +1,19 @@
+repository init localhost localsession
+create component session.rmi.ComponentA localhost
+create component session.rmi.ComponentB localhost
+connect session.rmi.ComponentB usesComponentA session.rmi.ComponentA sayHelloA
+create location localhost forrocore.SocketMiddleware 2001
+create workspace session.workspace.globus.BlockingWorkspaceDriver workspaceGlobus localhost
+create link link.A.B workspaceGlobus localhost
+go session.rmi.ComponentB sayHelloB
+create relationworkspacelocation workspaceGlobus localhost localhost
+
+
+repository init localhost localsession
+create component session.rmi.ComponentA localhost
+create component session.rmi.componentA 169.254.144.198/ForroDriver
+
+
+
+create location precabura forrocore.SocketMiddleware 2000
+create location paracuru forrocore.SocketMiddleware 1066

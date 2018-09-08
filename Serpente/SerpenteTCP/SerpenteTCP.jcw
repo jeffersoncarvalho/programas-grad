@@ -1,0 +1,19 @@
+! ** JCreator Workspace File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.00"
+LABEL := "SerpenteTCP"
+
+! Start Project Structure
+#[BeginProject]SOURCE := "\\SerpenteTCP.jcp" #[EndProject]
+
+! Start Last Document Structure
+#[BeginFile]SOURCE := "\\src\\ServerThread.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\Snake.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\Interface.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\DrawPanel.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\ClientSnake.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\SuperServerSocket.java" #[EndFile]
+
+! Start Breakpoint Structure
+

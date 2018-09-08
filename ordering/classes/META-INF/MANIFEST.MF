@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: br.ufc.lia.jeffersoncarvalho.aplicacoes.embrulho.gui.EmbrulhoGUI
+Class-path: jgl.jar
+

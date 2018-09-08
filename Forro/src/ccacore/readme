@@ -1,0 +1,11 @@
+/**
+ * @version $Revision: 1.1.1.1 $ $Author: mgovinda $ $Date: 2001/03/30 20:04:58 $ (GMT) 
+ **/
+
+The ccacore code for xcat
+
+This directory contains code for the following:
+
+Ports (Provides, Uses, PortRecord, PortImpl)
+Services and ComponentID objects
+

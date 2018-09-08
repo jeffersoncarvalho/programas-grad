@@ -1,0 +1,28 @@
+! ** JCreator Project File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.10"
+LABEL := "SerpenteTCP"
+JDKPROFILE := "j2sdk1.4.1_03"
+ACTIVE := "1"
+OUTPUTPATH := "\\classes"
+COMPILER := "<Default>"
+
+! Start RunTime Configuration Structure
+#[BeginRunTime]LABEL := "<Default>" RUNAPPLIC := "" RUNAPPLET := "" PARAM := "" RUN := "myprojects.serverthread.ServerThread" CHECK := "10" #[EndRunTime]
+! Start Required Libraries Structure
+
+! Start Project Folder Structure
+#[BeginFolder]
+LABEL := "Root"
+FILTER := ""
+
+#[BeginFile]SOURCE := "\\src\\Interface.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\Snake.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\Point.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\DrawPanel.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\Direction.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\SuperServerSocket.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\ClientSnake.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\ServerThread.java" #[EndFile]
+#[EndFolder]

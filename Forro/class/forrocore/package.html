@@ -1,0 +1,24 @@
+<html>
+<body>
+
+This package contains interfaces, abstract and instantiable classes to  simulation sessions
+with <i>Forró</i> on a distributed and heterogeneous network. 
+<br><br>
+A <i>simulation session</i> is composed by a <i>Front-End</i> and a set of
+<i>Model Implementations</i>. The session's <i>Front-End</i> allows the user to interact with the
+simulation session for data input, configuration, probing and introspection purposes. 
+On the other hand, each <i>Model Implementation</i> 
+is an object running on a specified <i>location</i> of the network.
+<br><br>
+Two main application-oriented interfaces are provided by this package. The first one consists of the 
+<i>Tableau de Bord</i> interface. The second defines the <i>Model Implementations</i>. Indeed, it is 
+derivated from a more general interface for remote objects, which is intended to allow a model 
+implementation to invoke methods on remote objects of the simulation session.
+<br><br>
+The abstract classes in this package are skeletal implementations to minimize the effort to
+implement the corresponding interfaces.
+<br><br>
+
+</body>
+</html>
+

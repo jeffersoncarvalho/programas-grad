@@ -1,0 +1,344 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  StdCtrls, VSSComm32, ComCtrls, ExtCtrls;
+
+type
+  tpacote = array of byte;
+  TTFprinc = class(TForm)
+    VSS: TVSSComm32;
+    edTamDados: TEdit;
+    btEnvia: TButton;
+    Label1: TLabel;
+    cbPorta: TComboBox;
+    Label2: TLabel;
+    Label3: TLabel;
+    cbBaud: TComboBox;
+    Label4: TLabel;
+    cbPalavra: TComboBox;
+    Label5: TLabel;
+    cbParidade: TComboBox;
+    Label6: TLabel;
+    cbStop: TComboBox;
+    OpenDialog1: TOpenDialog;
+    Label7: TLabel;
+    edArquivo: TEdit;
+    btProcura: TButton;
+    btOk: TButton;
+    Label8: TLabel;
+    Label9: TLabel;
+    edTamArq: TEdit;
+    StatusBar1: TStatusBar;
+    edDestino: TEdit;
+    edOrigem: TEdit;
+    Label10: TLabel;
+    Label11: TLabel;
+    Bevel1: TBevel;
+    Timer1: TTimer;
+    ListBox1: TListBox;
+    Button1: TButton;
+    procedure btEnviaClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure VSSReceiveData(Buffer: Pointer; BufferLength: Word);
+    procedure btOkClick(Sender: TObject);
+    procedure btProcuraClick(Sender: TObject);
+    procedure montaCabecalho(var header:tpacote;frameNumber,source,destino,funcao,headerInformationLenght:integer);
+    procedure montaPacote(op:integer);
+    Function xxor(tamx,tamy:integer;bcc_vet:tpacote):byte;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  TFprinc: TTFprinc;
+  Arq  : File of byte;
+  vetPacote:tpacote;
+  nPac:integer;
+
+
+implementation
+
+{$R *.DFM}
+//------------------------------------------------------------------------------
+Function TTFprinc.xxor(tamx,tamy:integer;bcc_vet:tpacote):byte;
+var i:integer;
+    resp:byte;
+begin
+  resp:=bcc_vet[tamx];
+  i:=tamx+1 ;
+  while i<tamy do
+   begin
+    resp:=resp xor bcc_vet[i];
+    inc(i);
+   end;
+xxor:=resp;
+end;
+//Monta Cabecalho---------------------------------------------------------------
+procedure TTFprinc.montaCabecalho(var header:tpacote;frameNumber,source,destino,funcao,headerInformationLenght:integer);
+begin
+header[0]:= $7d;
+header[1]:= 6+headerInformationLenght;
+header[2]:= frameNumber;
+header[3]:= source;
+header[4]:= destino ;
+header[5]:= funcao;
+header[6+headerInformationLenght]:=$7e;
+
+end;
+//Monta Pacote------------------------------------------------------------------
+procedure TTFprinc.montaPacote(op:integer);
+var  lido:integer;
+     tamStrArq:integer;
+     intConta:integer;
+     nomeArq:String;
+begin
+    lido:=0;
+    case op  of
+      1:begin //Solicita Conexão
+        Listbox1.items.add('Solicitando Conexão...');
+        Listbox1.refresh;
+        SetLength(vetPacote,12);
+        montaCabecalho(vetPacote,nPac,strtoint(edOrigem.text),strtoint(edDestino.text),1,0);
+        vetPacote[6]:=0;
+        vetPacote[8]:=0;
+        vetPacote[9]:=0;
+        vetPacote[10]:=xxor(2,9,vetPacote); // CALCULO DO bcc
+        vetPacote[11]:=$7f;
+        lido:=12;
+        end;
+      2:Begin //Envio de Arquivo
+        if not(eof(Arq)) then
+        begin
+          if nPac = 1 then
+            begin
+              tamStrArq:=Length(ExtractFileName(edArquivo.Text)); // tamanho do nome do arquivo
+              SetLength(vetPacote,strtoint(edTamDados.text)+10+tamStrArq);
+              nomeArq:=ExtractFileName(edArquivo.Text); // nome do arquivo
+              montaCabecalho(vetPacote,nPac,strtoint(edOrigem.text),strtoint(edDestino.text),2,tamStrArq);
+              for intConta:=1 to tamStrArq do
+                begin
+                  vetPacote[intConta+5]:=ord(nomeArq[intConta]);
+                end;
+              vetPacote[7+tamStrArq]:=strtoint(edtamdados.Text);   // data_lenght recebe o tamanho do arquivo
+              Blockread(Arq,vetPacote[8+tamStrArq],strtoint(edTamDados.text),lido);
+              lido:=lido+tamStrArq+10;   // tamanho do pacote total
+              vetPacote[lido-2]:=xxor(2,lido-2,vetPacote); //calculo do bcc
+              vetPacote[lido-1]:=$7f;
+            end
+          else
+            begin
+              SetLength(vetPacote,strtoint(edTamDados.text)+11);
+              montaCabecalho(vetPacote,nPac,strtoint(edOrigem.text),strtoint(edDestino.text),2,1);
+              vetPacote[8]:=strtoint(edtamdados.Text);
+              Blockread(Arq,vetPacote[9],strtoint(edTamDados.text),lido);
+              lido:=lido+11;   // tamanho do pacote total
+              vetPacote[lido-2]:=xxor(2,lido-2,vetPacote); //calculo do bcc
+              vetPacote[lido-1]:=$7f;
+            end;
+            Listbox1.items.add('Enviando Pacotes...');
+            Listbox1.refresh;
+          end
+        else //Fim do Arquivo
+          begin
+            SetLength(vetPacote,12);
+            montaCabecalho(vetPacote,nPac,strtoint(edOrigem.text),strtoint(edDestino.text),6,1);
+            vetPacote[6]:=0;
+            vetPacote[8]:=0;
+            vetPacote[9]:=0;
+            vetPacote[10]:=xxor(2,10,vetPacote); // CALCULO DO bcc
+            vetPacote[11]:=$7f;
+            lido:=12;
+            closeFile(arq);
+            Listbox1.items.add('Arquivo transmitido!!!');
+            Listbox1.refresh;
+            Timer1.enabled:=true;
+            Timer1.interval:=1000;
+            Timer1.enabled:=false;
+          end;
+        end;
+       3:Begin //Envio de Mensagem
+           if not(eof(Arq)) then
+             begin
+               SetLength(vetPacote,strtoint(edTamDados.text)+11);
+               montaCabecalho(vetPacote,nPac,strtoint(edOrigem.text),strtoint(edDestino.text),2,1);
+               Blockread(Arq,vetPacote[9],strtoint(edTamDados.text),lido);
+               vetPacote[10+lido]:=xxor(2,8+lido,vetPacote);
+             end;
+         end;
+       4: begin //ACK
+            SetLength(vetPacote,12);
+            montaCabecalho(vetPacote,nPac,strtoint(edOrigem.text),strtoint(edDestino.text),4,1);
+            vetPacote[6]:=0;
+            vetPacote[8]:=0;
+            vetPacote[9]:=0;
+            vetPacote[10]:=xxor(2,10,vetPacote); // CALCULO DO bcc
+            vetPacote[11]:=$7f;
+            lido:=12;
+          end;
+       5: begin //NACK
+            Listbox1.items.add('Pacote Não Recebido !!!');
+            Listbox1.refresh;
+            SetLength(vetPacote,12);
+            montaCabecalho(vetPacote,nPac,strtoint(edOrigem.text),strtoint(edDestino.text),5,1);
+            vetPacote[6]:=0;
+            vetPacote[8]:=0;
+            vetPacote[9]:=0;
+            vetPacote[10]:=xxor(2,10,vetPacote); // CALCULO DO bcc
+            vetPacote[11]:=$7f;
+            lido:=12;
+          end;
+       6: begin
+            Listbox1.items.add('Fim de Transmissão !!!');
+            Listbox1.refresh;
+            end;
+    end;//end case
+    vss.WriteCommData(@vetPacote[0],lido);  // se array dinamido começa com zero
+    nPac:=nPac+1;
+end;
+
+//------------------------------------------------------------------------------
+procedure TTFprinc.btEnviaClick(Sender: TObject);
+begin
+   montaPacote(1);
+
+end;
+//------------------------------------------------------------------------------
+procedure TTFprinc.FormCreate(Sender: TObject);
+begin
+ vss.startcomm;
+  nPac:=0;
+end;
+
+procedure TTFprinc.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  vss.stopcomm;
+end;
+
+//Receber Arquivo---------------------------------------------------------------
+procedure TTFprinc.VSSReceiveData(Buffer: Pointer; BufferLength: Word);
+var  bufferec:pchar;
+     pacote_recepcao:tpacote;
+     i,j:integer;
+     nomearquivo:string;
+     tamanho:integer;  //tamanho do arquivo
+begin
+  getmem(bufferec,BufferLength);  //Alocando Memoria para o Ponteiro
+  bufferec:=buffer;
+  setlength(pacote_recepcao,BufferLength);
+  for i:=0 to bufferlength-1 do
+  begin
+    pacote_recepcao[i]:=ord((bufferec+i)^);
+  end;
+  if pacote_recepcao[5] = 1 then
+     begin
+     Listbox1.items.add('conectando...');
+     Listbox1.refresh;
+     end;
+
+  if Pacote_recepcao[bufferlength-2] = xxor(2,bufferlength-2,Pacote_recepcao) then
+    begin
+      case Pacote_recepcao[5] of
+       1: begin
+            montaPacote(4);
+            Listbox1.items.add('Recebendo Pacotes !!!');
+            Listbox1.refresh;
+
+          end; // ACK
+       2: begin
+            if Pacote_recepcao[2] = 1 then
+              begin
+                nomearquivo:='c:\';
+                i:=6;
+                while Pacote_recepcao[i] <> $7e do
+                begin
+                   nomearquivo:=nomearquivo+chr(Pacote_recepcao[i]);
+                   i:=i+1;
+                end;
+                assignfile(arq,nomearquivo);
+                Rewrite(Arq);
+                blockwrite(arq,Pacote_recepcao[i+2],BufferLength-i-4);
+                montaPacote(4);
+            end
+            else
+                begin
+                  i:=6;
+                  while Pacote_recepcao[i] <> $7e do
+                  begin
+                     i:=i+1;
+                  end;
+                  blockwrite(arq,Pacote_recepcao[i+2],BufferLength-i-4);
+                  montaPacote(4);
+                end;
+          end;
+       3: ;// mensagem
+       4: montaPacote(2); // monta pacote proximo
+       5: montaPacote(6); // reenvia o pacote
+       6: begin
+          closefile(arq);
+          Listbox1.items.add('Arquivo Recebido!!!');
+          Listbox1.refresh;
+          end; // fim da transmissao
+    end;
+  end;
+end;
+
+procedure TTFprinc.btOkClick(Sender: TObject);
+begin
+  vss.stopcomm;    // ao iniciar a configuração
+
+  Case cbPorta.itemindex of
+     0 : Vss.CommPort := Com1;
+     1 : Vss.CommPort := Com2;
+  end;
+  Case cbBaud.itemindex of
+     0 : Vss.BaudRate := ___2400;
+     1 : Vss.BaudRate := ___4800;
+     2 : Vss.BaudRate := ___9600;
+     3 : Vss.BaudRate := __14400;
+     4 : Vss.BaudRate := __19200;
+     5 : Vss.BaudRate := __38400;
+     6 : Vss.BaudRate := __56000;
+     7 : Vss.BaudRate := _128000;
+     8 : Vss.BaudRate := _256000;
+  end;
+  Case cbPalavra.itemindex of
+     0 : Vss.DataBits := _7;
+     1 : Vss.DataBits := _8;
+  end;
+  Case cbParidade.itemindex of
+     0 : Vss.Parity := Even;   // paridade par
+     1 : Vss.Parity := Odd;    // paridade impar
+     2 : Vss.Parity := None;   // nenhuma paridade
+  end;
+  Case cbStop.itemindex of
+     0 : Vss.StopBits := _1;
+     1 : Vss.StopBits := _2;
+  end;
+
+  vss.startcomm;   // ao finalizar a configuração
+  end;
+
+procedure TTFprinc.btProcuraClick(Sender: TObject);
+begin
+   If OpenDialog1.Execute then
+     begin
+      edArquivo.Text := OpenDialog1.FileName;
+      AssignFile(Arq,OpenDialog1.FileName);
+      Reset(Arq);
+      edTamArq.Text:=intToStr(filesize(Arq));
+      end
+end;
+
+procedure TTFprinc.Button1Click(Sender: TObject);
+begin
+  TFprinc.Close;
+end;
+
+end.

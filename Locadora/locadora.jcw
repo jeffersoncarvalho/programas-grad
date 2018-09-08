@@ -1,0 +1,19 @@
+! ** JCreator Workspace File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.00"
+LABEL := "locadora"
+
+! Start Project Structure
+#[BeginProject]SOURCE := "\\Locadora.jcp" #[EndProject]
+
+! Start Last Document Structure
+#[BeginFile]SOURCE := "\\src\\locadora\\funcionarios\\ModuloOperador.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\locadora\\gui\\InterfaceLocadora.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\locadora\\repositorios\\RepositorioPedidos.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\locadora\\repositorios\\RepositorioProdutos.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\locadora\\produto\\Produto.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\locadora\\gui\\Locadora.java" #[EndFile]
+
+! Start Breakpoint Structure
+

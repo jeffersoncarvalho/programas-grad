@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="model-aid" size="6546,7138" id="model" metadata="uml2-1.0" initialized="true" zoom="0.75" scrolledX="392" scrolledY="-1039" tag="10" key="323030363034313120466F72726F">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.1 //@children.8/@sourceConnections.4 //@children.8/@sourceConnections.5 //@children.14/@sourceConnections.3 //@children.14/@sourceConnections.4 //@children.14/@sourceConnections.5 //@children.16/@sourceConnections.3 //@children.4/@sourceConnections.1 //@children.16/@sourceConnections.4 //@children.4/@sourceConnections.3 //@children.4/@sourceConnections.5 //@children.8/@sourceConnections.10 //@children.14/@sourceConnections.6 //@children.16/@sourceConnections.5 //@children.4/@sourceConnections.7 //@children.8/@sourceConnections.11 //@children.14/@sourceConnections.8 //@children.16/@sourceConnections.8 //@children.4/@sourceConnections.10 //@children.8/@sourceConnections.13 //@children.14/@sourceConnections.9 //@children.16/@sourceConnections.9 //@children.4/@sourceConnections.12 //@children.8/@sourceConnections.14 //@children.14/@sourceConnections.10 //@children.16/@sourceConnections.10 //@children.4/@sourceConnections.14 //@children.8/@sourceConnections.15 //@children.14/@sourceConnections.11 //@children.16/@sourceConnections.11" name="DatatypeFactory" location="1299,-1051" size="262,157" id="session.datatype/DatatypeFactory" runTimeClassModel="newInstance(),setContents(Lsession.datatype.Datatype;Lsession.datatype.Datatype;),newInstance(Lsession.datatype.Datatype;),newInstance(Ljava.lang.String;),getInstance(),recycle(Lsession.datatype.Datatype;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,108">
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="session.datatype/DatatypeFactory#getInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="newInstance" location="2125,1403" id="session.datatype/DatatypeFactory#newInstance(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="newInstance" id="session.datatype/DatatypeFactory#newInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="newInstance" id="session.datatype/DatatypeFactory#newInstance(Lsession.datatype.Datatype;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="recycle" id="session.datatype/DatatypeFactory#recycle(Lsession.datatype.Datatype;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setContents" id="session.datatype/DatatypeFactory#setContents(Lsession.datatype.Datatype;Lsession.datatype.Datatype;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.datatype/DatatypeFactory->session.datatype/Datatype" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="262,147" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="session.datatype/DatatypeFactory@datatypeFactory+model/ProvidesPort@" source="//@children.0" target="//@children.16" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="datatypeFactory" location="10,10" id="session.datatype/DatatypeFactory@datatypeFactory+model/ProvidesPort@|session.datatype/DatatypeFactory#datatypeFactory" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - datatypeFactory" location="1202,-1035" size="89,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1285,-1062" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="123,119" id="session.datatype/DatatypeFactory@datatypeFactory+model/ProvidesPort@|model/ProvidesPort#" roleLabel="//@children.0/@sourceConnections.1/@children.2/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="1279,-1232" size="0,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="session.datatype/DatatypeFactory@datatypeFactory+session.workspace/WorkspaceDriver@" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="datatypeFactory" location="10,147" id="session.datatype/DatatypeFactory@datatypeFactory+session.workspace/WorkspaceDriver@|session.datatype/DatatypeFactory#datatypeFactory" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.0/@sourceConnections.2/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - datatypeFactory" location="1202,-924" size="89,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1273,-897" size="18,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="280,1" id="session.datatype/DatatypeFactory@datatypeFactory+session.workspace/WorkspaceDriver@|session.workspace/WorkspaceDriver#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.datatype/DatatypeFactory->java.lang/String" source="//@children.0" target="//@children.17" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="262,79" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,888"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.2" name="TreeMapPriorityQueue" location="376,-640" size="277,229" id="paradise_test/TreeMapPriorityQueue" runTimeClassModel="usesPortList(),isEmpty(),getMin(),add(Lsession.datatype.Datatype;),getProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;),tailMap(Lsession.datatype.Datatype;),map,operate(),providesPortList(),putUsesPort(Ljava.lang.String;Lmodel.PortCCA;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="map" id="paradise_test/TreeMapPriorityQueue#map"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,162">
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="paradise_test/TreeMapPriorityQueue#add(Lsession.datatype.Datatype;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMin" id="paradise_test/TreeMapPriorityQueue#getMin()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getProvidesPort" id="paradise_test/TreeMapPriorityQueue#getProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isEmpty" id="paradise_test/TreeMapPriorityQueue#isEmpty()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="operate" id="paradise_test/TreeMapPriorityQueue#operate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="providesPortList" id="paradise_test/TreeMapPriorityQueue#providesPortList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="putUsesPort" id="paradise_test/TreeMapPriorityQueue#putUsesPort(Ljava.lang.String;Lmodel.PortCCA;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tailMap" id="paradise_test/TreeMapPriorityQueue#tailMap(Lsession.datatype.Datatype;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="usesPortList" id="paradise_test/TreeMapPriorityQueue#usesPortList()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="paradise_test/TreeMapPriorityQueue->model/ModelEmulator" source="//@children.1" target="//@children.10" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="257,1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="19,171"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="paradise_test/TreeMapPriorityQueue->model/PortCCA" source="//@children.1" target="//@children.11" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="277,45" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,256"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="paradise_test/TreeMapPriorityQueue->session.datatype/Datatype" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.2/@children.2" label="//@children.1/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="277,219" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="paradise_test/TreeMapPriorityQueue->model/BindingProperties" source="//@children.1" target="//@children.9" targetEnd="//@children.1/@sourceConnections.3/@children.2" label="//@children.1/@sourceConnections.3/@children.0" sourceEnd="//@children.1/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="277,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,103"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="paradise_test/TreeMapPriorityQueue->java.lang/String" source="//@children.1" target="//@children.17" targetEnd="//@children.1/@sourceConnections.4/@children.2" label="//@children.1/@sourceConnections.4/@children.0" sourceEnd="//@children.1/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="277,115" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1335"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.8/@sourceConnections.6 //@children.1/@sourceConnections.2 //@children.11/@sourceConnections.0 //@children.11/@sourceConnections.5 //@children.2/@sourceConnections.0 //@children.14/@sourceConnections.2 //@children.0/@sourceConnections.0 //@children.16/@sourceConnections.1 //@children.6/@sourceConnections.3 //@children.4/@sourceConnections.0" name="Datatype" location="2800,-180" size="215,98" id="session.datatype/Datatype" runTimeClassModel="contents,waitContents(),getContents()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,36">
+      <children xsi:type="editmodel:MethodEditModel" name="getContents" id="session.datatype/Datatype#getContents()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="waitContents" id="session.datatype/Datatype#waitContents()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="session.datatype/Datatype@contents+session.datatype/Datatype@" source="//@children.2" target="//@children.2" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="contents" location="0,20" id="session.datatype/Datatype@contents+session.datatype/Datatype@|session.datatype/Datatype#contents" anchorKind="FixedAtEdge" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" + contents" location="2739,-153" size="54,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="2775,-180" size="18,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" id="session.datatype/Datatype@contents+session.datatype/Datatype@|session.datatype/Datatype#" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="session.datatype/Datatype@invocationMap+session.workspace/WorkspaceDriver@" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="invocationMap" location="0,10" id="session.datatype/Datatype@invocationMap+session.workspace/WorkspaceDriver@|session.datatype/Datatype#invocationMap" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - invocationMap" location="2714,-164" size="79,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="2775,-191" size="18,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="270,211" id="session.datatype/Datatype@invocationMap+session.workspace/WorkspaceDriver@|session.workspace/WorkspaceDriver#" roleLabel="//@children.2/@sourceConnections.1/@children.2/@children.1">
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="hashCode" location="1256,-593" size="64,22" id=""/>
+        <children xsi:type="editmodel:LabelEditModel" location="1302,-565" size="0,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.1 //@children.11/@sourceConnections.2 //@children.11/@sourceConnections.3 //@children.11/@sourceConnections.4" name="AbstractAlgebraic" location="2320,-1550" size="230,121" id="model.mechanics/AbstractAlgebraic" runTimeClassModel="usesPortList(),AbstractAlgebraic(Ljava.lang.String;),providesPortList(),putUsesPort(Ljava.lang.String;Lmodel.PortCCA;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,72">
+      <children xsi:type="editmodel:MethodEditModel" name="AbstractAlgebraic" location="4240,335" id="model.mechanics/AbstractAlgebraic#AbstractAlgebraic(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="providesPortList" id="model.mechanics/AbstractAlgebraic#providesPortList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="putUsesPort" id="model.mechanics/AbstractAlgebraic#putUsesPort(Ljava.lang.String;Lmodel.PortCCA;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="usesPortList" id="model.mechanics/AbstractAlgebraic#usesPortList()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="model.mechanics/AbstractAlgebraic->model/PortCCA" source="//@children.3" target="//@children.11" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,100" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="183,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model.mechanics/AbstractAlgebraic->java.lang/String" source="//@children.3" target="//@children.17" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="230,61" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,371"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.8 //@children.2/@sourceConnections.1 //@children.0/@sourceConnections.2 //@children.6/@sourceConnections.5 //@children.6/@sourceConnections.6" name="WorkspaceDriver" location="1040,-800" size="280,211" id="session.workspace/WorkspaceDriver" runTimeClassModel="WorkspaceDriver(Lsession.workspace.Middleware;),nonBlockingInvocation(Ljava.lang.String;[Lsession.datatype.Datatype;Ljava.lang.String;),newInstance(Ljava.lang.String;Ljava.lang.String;),requireUses(Ljava.lang.String;),isRegistered(Ljava.lang.String;),intInvocation(Ljava.lang.String;[Lsession.datatype.Datatype;Ljava.lang.String;),registerLink(Ljava.lang.String;Ljava.lang.String;),booleanInvocation(Ljava.lang.String;[Lsession.datatype.Datatype;Ljava.lang.String;),invoke(Ljava.lang.String;[Lsession.datatype.Datatype;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="137,162">
+      <children xsi:type="editmodel:MethodEditModel" name="WorkspaceDriver" id="session.workspace/WorkspaceDriver#WorkspaceDriver(Lsession.workspace.Middleware;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="booleanInvocation" id="session.workspace/WorkspaceDriver#booleanInvocation(Ljava.lang.String;[Lsession.datatype.Datatype;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="intInvocation" id="session.workspace/WorkspaceDriver#intInvocation(Ljava.lang.String;[Lsession.datatype.Datatype;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="invoke" id="session.workspace/WorkspaceDriver#invoke(Ljava.lang.String;[Lsession.datatype.Datatype;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isRegistered" id="session.workspace/WorkspaceDriver#isRegistered(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="newInstance" id="session.workspace/WorkspaceDriver#newInstance(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nonBlockingInvocation" id="session.workspace/WorkspaceDriver#nonBlockingInvocation(Ljava.lang.String;[Lsession.datatype.Datatype;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="registerLink" id="session.workspace/WorkspaceDriver#registerLink(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="requireUses" id="session.workspace/WorkspaceDriver#requireUses(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="session.workspace/WorkspaceDriver->session.datatype/Datatype" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="233,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="65,98"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="session.workspace/WorkspaceDriver->session.datatype/DatatypeFactory" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="260,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,137"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="session.workspace/WorkspaceDriver->session.workspace/LocationDriver" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="255,191"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/WorkspaceDriver->session.datatype/DatatypeFactory" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.3/@children.2" label="//@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="269,1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,158"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/WorkspaceDriver->session.workspace/LocationDriver" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.4/@children.2" label="//@children.4/@sourceConnections.4/@children.0" sourceEnd="//@children.4/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,105" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,105"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="session.workspace/WorkspaceDriver->session.datatype/DatatypeFactory" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.5/@children.2" label="//@children.4/@sourceConnections.5/@children.0" sourceEnd="//@children.4/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="280,11" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,147"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="session.workspace/WorkspaceDriver->session.workspace/LocationDriver" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.6/@children.2" label="//@children.4/@sourceConnections.6/@children.0" sourceEnd="//@children.4/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="235,211"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/WorkspaceDriver->session.datatype/DatatypeFactory" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.7/@children.2" label="//@children.4/@sourceConnections.7/@children.0" sourceEnd="//@children.4/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="249,1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,153"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/WorkspaceDriver->session.workspace/LocationDriver" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.8/@children.2" label="//@children.4/@sourceConnections.8/@children.0" sourceEnd="//@children.4/@sourceConnections.8/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,85" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,85"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/WorkspaceDriver->java.lang/String" source="//@children.4" target="//@children.17" targetEnd="//@children.4/@sourceConnections.9/@children.2" label="//@children.4/@sourceConnections.9/@children.0" sourceEnd="//@children.4/@sourceConnections.9/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="280,106" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1166"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/WorkspaceDriver->session.datatype/DatatypeFactory" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.10/@children.2" label="//@children.4/@sourceConnections.10/@children.0" sourceEnd="//@children.4/@sourceConnections.10/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="239,1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,143"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/WorkspaceDriver->session.workspace/LocationDriver" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.11/@children.2" label="//@children.4/@sourceConnections.11/@children.0" sourceEnd="//@children.4/@sourceConnections.11/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,75" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,75"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/WorkspaceDriver->session.datatype/DatatypeFactory" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.12/@children.2" label="//@children.4/@sourceConnections.12/@children.0" sourceEnd="//@children.4/@sourceConnections.12/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="279,21" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="40,158"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/WorkspaceDriver->session.workspace/LocationDriver" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.13/@children.2" label="//@children.4/@sourceConnections.13/@children.0" sourceEnd="//@children.4/@sourceConnections.13/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,111" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,135"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/WorkspaceDriver->session.datatype/DatatypeFactory" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.14/@children.2" label="//@children.4/@sourceConnections.14/@children.0" sourceEnd="//@children.4/@sourceConnections.14/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="279,11" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="30,158"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/WorkspaceDriver->session.workspace/LocationDriver" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.15/@children.2" label="//@children.4/@sourceConnections.15/@children.0" sourceEnd="//@children.4/@sourceConnections.15/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,109" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,125"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.8/@sourceConnections.0 //@children.7/@sourceConnections.0" name="ModelContext" location="850,-1302" size="131,152" id="model/ModelContext" runTimeClassModel="usesPortList(),getProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;),operate(),providesPortList(),putUsesPort(Ljava.lang.String;Lmodel.PortCCA;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,90">
+      <children xsi:type="editmodel:MethodEditModel" name="getProvidesPort" location="745,741" id="model/ModelContext#getProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="operate" id="model/ModelContext#operate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="providesPortList" id="model/ModelContext#providesPortList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="putUsesPort" id="model/ModelContext#putUsesPort(Ljava.lang.String;Lmodel.PortCCA;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="usesPortList" id="model/ModelContext#usesPortList()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="model/ModelContext@context+model/ModelDriver@" source="//@children.5" target="//@children.8" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="context" location="131,76" id="model/ModelContext@context+model/ModelDriver@|model/ModelContext#context" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - context" location="987,-1247" size="46,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="987,-1220" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,95" id="model/ModelContext@context+model/ModelDriver@|model/ModelDriver#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelContext->model/PortCCA" source="//@children.5" target="//@children.11" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="131,142" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelContext->model/BindingProperties" source="//@children.5" target="//@children.9" targetEnd="//@children.5/@sourceConnections.2/@children.2" label="//@children.5/@sourceConnections.2/@children.0" sourceEnd="//@children.5/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="85,153" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="45,1"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelContext->java.lang/String" source="//@children.5" target="//@children.17" targetEnd="//@children.5/@sourceConnections.3/@children.2" label="//@children.5/@sourceConnections.3/@children.0" sourceEnd="//@children.5/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="131,76" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,634"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.3 //@children.7/@sourceConnections.2 //@children.7/@sourceConnections.3 //@children.4/@sourceConnections.2 //@children.4/@sourceConnections.4 //@children.4/@sourceConnections.6 //@children.4/@sourceConnections.8 //@children.4/@sourceConnections.11 //@children.4/@sourceConnections.13 //@children.4/@sourceConnections.15" name="LocationDriver" location="680,-800" size="265,211" id="session.workspace/LocationDriver" runTimeClassModel="registerProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;),usesPortList(Ljava.lang.String;),invokeAtModel(Ljava.lang.String;[Lsession.datatype.Datatype;),providesPortList(Ljava.lang.String;),bindUsesPort(Ljava.lang.String;Ljava.lang.String;Lsession.workspace.WorkspaceDriver;Ljava.lang.String;Lmodel.BindingProperties;),getInstance(Ljava.lang.String;),probe(Ljava.lang.String;),addModel(Ljava.lang.String;Lmodel.ModelEmulator;),getInstance(),contextFactory">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,162">
+      <children xsi:type="editmodel:MethodEditModel" name="addModel" id="session.workspace/LocationDriver#addModel(Ljava.lang.String;Lmodel.ModelEmulator;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="bindUsesPort" id="session.workspace/LocationDriver#bindUsesPort(Ljava.lang.String;Ljava.lang.String;Lsession.workspace.WorkspaceDriver;Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="session.workspace/LocationDriver#getInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="session.workspace/LocationDriver#getInstance(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="invokeAtModel" id="session.workspace/LocationDriver#invokeAtModel(Ljava.lang.String;[Lsession.datatype.Datatype;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="probe" id="session.workspace/LocationDriver#probe(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="providesPortList" id="session.workspace/LocationDriver#providesPortList(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="registerProvidesPort" id="session.workspace/LocationDriver#registerProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="usesPortList" id="session.workspace/LocationDriver#usesPortList(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/LocationDriver->model/ModelDriver" source="//@children.6" target="//@children.8" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="255,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,201"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/LocationDriver->model/ModelEmulator" source="//@children.6" target="//@children.10" targetEnd="//@children.6/@sourceConnections.1/@children.2" label="//@children.6/@sourceConnections.1/@children.0" sourceEnd="//@children.6/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="61,1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="127,171"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/LocationDriver->model/BindingProperties" source="//@children.6" target="//@children.9" targetEnd="//@children.6/@sourceConnections.2/@children.2" label="//@children.6/@sourceConnections.2/@children.0" sourceEnd="//@children.6/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="237,1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="27,104"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/LocationDriver->session.datatype/Datatype" source="//@children.6" target="//@children.2" targetEnd="//@children.6/@sourceConnections.3/@children.2" label="//@children.6/@sourceConnections.3/@children.0" sourceEnd="//@children.6/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,201" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="session.workspace/LocationDriver->model/ModelFactory" source="//@children.6" target="//@children.7" targetEnd="//@children.6/@sourceConnections.4/@children.2" label="//@children.6/@sourceConnections.4/@children.0" sourceEnd="//@children.6/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,65"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="session.workspace/LocationDriver@ldriver+session.workspace/WorkspaceDriver@" source="//@children.6" target="//@children.4" targetEnd="//@children.6/@sourceConnections.5/@children.2" label="//@children.6/@sourceConnections.5/@children.0" sourceEnd="//@children.6/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ldriver" location="255,201" id="session.workspace/LocationDriver@ldriver+session.workspace/WorkspaceDriver@|session.workspace/LocationDriver#ldriver" attachSource="true" multiplicityLabel="//@children.6/@sourceConnections.5/@children.1/@children.1" roleLabel="//@children.6/@sourceConnections.5/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - ldriver" location="951,-593" size="40,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="951,-620" size="18,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" id="session.workspace/LocationDriver@ldriver+session.workspace/WorkspaceDriver@|session.workspace/WorkspaceDriver#" roleLabel="//@children.6/@sourceConnections.5/@children.2/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="1033,-800" size="0,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="session.workspace/LocationDriver->session.workspace/WorkspaceDriver" source="//@children.6" target="//@children.4" targetEnd="//@children.6/@sourceConnections.6/@children.2" label="//@children.6/@sourceConnections.6/@children.0" sourceEnd="//@children.6/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="245,211" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="session.workspace/LocationDriver->model/ModelFactory" source="//@children.6" target="//@children.7" targetEnd="//@children.6/@sourceConnections.7/@children.2" label="//@children.6/@sourceConnections.7/@children.0" sourceEnd="//@children.6/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="98,85"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/LocationDriver->model/ModelFactory" source="//@children.6" target="//@children.7" targetEnd="//@children.6/@sourceConnections.8/@children.2" label="//@children.6/@sourceConnections.8/@children.0" sourceEnd="//@children.6/@sourceConnections.8/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,85"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/LocationDriver->model/ModelFactory" source="//@children.6" target="//@children.7" targetEnd="//@children.6/@sourceConnections.9/@children.2" label="//@children.6/@sourceConnections.9/@children.0" sourceEnd="//@children.6/@sourceConnections.9/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="30,85"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/LocationDriver->java.lang/String" source="//@children.6" target="//@children.17" targetEnd="//@children.6/@sourceConnections.10/@children.2" label="//@children.6/@sourceConnections.10/@children.0" sourceEnd="//@children.6/@sourceConnections.10/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,106" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1166"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/LocationDriver->java.lang/String" source="//@children.6" target="//@children.17" targetEnd="//@children.6/@sourceConnections.11/@children.2" label="//@children.6/@sourceConnections.11/@children.0" sourceEnd="//@children.6/@sourceConnections.11/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,136" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1172"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/LocationDriver->model/ModelFactory" source="//@children.6" target="//@children.7" targetEnd="//@children.6/@sourceConnections.12/@children.2" label="//@children.6/@sourceConnections.12/@children.0" sourceEnd="//@children.6/@sourceConnections.12/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,40" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="40,85"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/LocationDriver->java.lang/String" source="//@children.6" target="//@children.17" targetEnd="//@children.6/@sourceConnections.13/@children.2" label="//@children.6/@sourceConnections.13/@children.0" sourceEnd="//@children.6/@sourceConnections.13/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,126" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1170"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/LocationDriver->model/ModelFactory" source="//@children.6" target="//@children.7" targetEnd="//@children.6/@sourceConnections.14/@children.2" label="//@children.6/@sourceConnections.14/@children.0" sourceEnd="//@children.6/@sourceConnections.14/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="250,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,70"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/LocationDriver->java.lang/String" source="//@children.6" target="//@children.17" targetEnd="//@children.6/@sourceConnections.15/@children.2" label="//@children.6/@sourceConnections.15/@children.0" sourceEnd="//@children.6/@sourceConnections.15/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,86" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1146"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/LocationDriver->model/ModelFactory" source="//@children.6" target="//@children.7" targetEnd="//@children.6/@sourceConnections.16/@children.2" label="//@children.6/@sourceConnections.16/@children.0" sourceEnd="//@children.6/@sourceConnections.16/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="260,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,80"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="session.workspace/LocationDriver->java.lang/String" source="//@children.6" target="//@children.17" targetEnd="//@children.6/@sourceConnections.17/@children.2" label="//@children.6/@sourceConnections.17/@children.0" sourceEnd="//@children.6/@sourceConnections.17/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="265,76" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1136"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.4 //@children.6/@sourceConnections.7 //@children.6/@sourceConnections.8 //@children.6/@sourceConnections.9 //@children.6/@sourceConnections.12 //@children.6/@sourceConnections.14 //@children.6/@sourceConnections.16" name="ModelFactory" location="960,-950" size="128,85" id="model/ModelFactory" runTimeClassModel="getInstance(Lsession.workspace.LocationDriver;),newInstance(Ljava.lang.String;Lmodel.ModelEmulator;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,36">
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" location="1155,2569" id="model/ModelFactory#getInstance(Lsession.workspace.LocationDriver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="newInstance" id="model/ModelFactory#newInstance(Ljava.lang.String;Lmodel.ModelEmulator;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelFactory->model/ModelContext" source="//@children.7" target="//@children.5" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,153"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelFactory->model/ModelEmulator" source="//@children.7" target="//@children.10" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,21" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="190,151"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="session.workspace/LocationDriver@driver+model/ModelFactory@contextFactory" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.2/@children.2" label="//@children.7/@sourceConnections.2/@children.0" sourceEnd="//@children.7/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="contextFactory" location="118,75" id="session.workspace/LocationDriver@driver+model/ModelFactory@contextFactory|model/ModelFactory#contextFactory" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.7/@sourceConnections.2/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" + contextFactory" location="1095,-896" size="85,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1095,-869" size="18,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="driver" location="0,20" id="session.workspace/LocationDriver@driver+model/ModelFactory@contextFactory|session.workspace/LocationDriver#driver" multiplicityLabel="//@children.7/@sourceConnections.2/@children.2/@children.1" roleLabel="//@children.7/@sourceConnections.2/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - driver" location="635,-773" size="38,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="667,-800" size="6,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="model/ModelFactory->session.workspace/LocationDriver" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.3/@children.2" label="//@children.7/@sourceConnections.3/@children.0" sourceEnd="//@children.7/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="108,85" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelFactory->java.lang/String" source="//@children.7" target="//@children.17" targetEnd="//@children.7/@sourceConnections.4/@children.2" label="//@children.7/@sourceConnections.4/@children.0" sourceEnd="//@children.7/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="128,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,953"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.6/@sourceConnections.0" name="ModelDriver" location="1308,-1321" size="181,211" id="model/ModelDriver" runTimeClassModel="usesPortList(),registerProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;),bindUsesPort(Ljava.lang.String;Ljava.lang.String;Lsession.workspace.WorkspaceDriver;Ljava.lang.String;Lmodel.BindingProperties;),ModelDriver(Lmodel.ModelContext;),bindUsesPort(Ljava.lang.String;Lmodel.Port;),getRegisteredProvidesPort(Ljava.lang.String;),getContext(),providesPortList(),invoke(Ljava.lang.String;[Lsession.datatype.Datatype;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="158,162">
+      <children xsi:type="editmodel:MethodEditModel" name="ModelDriver" id="model/ModelDriver#ModelDriver(Lmodel.ModelContext;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="bindUsesPort" id="model/ModelDriver#bindUsesPort(Ljava.lang.String;Ljava.lang.String;Lsession.workspace.WorkspaceDriver;Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="bindUsesPort" id="model/ModelDriver#bindUsesPort(Ljava.lang.String;Lmodel.Port;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getContext" id="model/ModelDriver#getContext()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRegisteredProvidesPort" id="model/ModelDriver#getRegisteredProvidesPort(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="invoke" id="model/ModelDriver#invoke(Ljava.lang.String;[Lsession.datatype.Datatype;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="providesPortList" id="model/ModelDriver#providesPortList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="registerProvidesPort" id="model/ModelDriver#registerProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="usesPortList" id="model/ModelDriver#usesPortList()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="model/ModelDriver->model/ModelContext" source="//@children.8" target="//@children.5" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,-10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="130,152"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="session.datatype/DatatypeFactory@datatypeFactory+model/ModelDriver@" source="//@children.8" target="//@children.0" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="181,81" id="session.datatype/DatatypeFactory@datatypeFactory+model/ModelDriver@|model/ModelDriver#" attachSource="true" roleLabel="//@children.8/@sourceConnections.1/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="1495,-1260" size="0,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="datatypeFactory" location="0,76" id="session.datatype/DatatypeFactory@datatypeFactory+model/ModelDriver@|session.datatype/DatatypeFactory#datatypeFactory" multiplicityLabel="//@children.8/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.8/@sourceConnections.1/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - datatypeFactory" location="1202,-969" size="89,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1285,-996" size="6,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="model/PortCCA@providesPortMap+model/ModelDriver@" source="//@children.8" target="//@children.11" targetEnd="//@children.8/@sourceConnections.2/@children.2" label="//@children.8/@sourceConnections.2/@children.0" sourceEnd="//@children.8/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="116,212" id="model/PortCCA@providesPortMap+model/ModelDriver@|model/ModelDriver#" attachSource="true">
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="providesPortName" location="1373,-1114" size="103,22" id=""/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="providesPortMap" location="64,1" id="model/PortCCA@providesPortMap+model/ModelDriver@|model/PortCCA#providesPortMap" multiplicityLabel="//@children.8/@sourceConnections.2/@children.2/@children.1" roleLabel="//@children.8/@sourceConnections.2/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - providesPortMap" location="1431,-872" size="91,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1399,-872" size="18,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="model/ModelDriver@modelMap+session.workspace/LocationDriver@" source="//@children.8" target="//@children.6" targetEnd="//@children.8/@sourceConnections.3/@children.2" label="//@children.8/@sourceConnections.3/@children.0" sourceEnd="//@children.8/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="modelMap" location="0,211" id="model/ModelDriver@modelMap+session.workspace/LocationDriver@|model/ModelDriver#modelMap" attachSource="true" multiplicityLabel="//@children.8/@sourceConnections.3/@children.1/@children.1" roleLabel="//@children.8/@sourceConnections.3/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - modelMap" location="1243,-1131" size="58,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1283,-1104" size="18,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="245,0" id="model/ModelDriver@modelMap+session.workspace/LocationDriver@|session.workspace/LocationDriver#" roleLabel="//@children.8/@sourceConnections.3/@children.2/@children.1">
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="modelName" location="875,-817" size="70,22" id=""/>
+        <children xsi:type="editmodel:LabelEditModel" location="917,-838" size="0,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="model/ModelDriver->session.datatype/DatatypeFactory" source="//@children.8" target="//@children.0" targetEnd="//@children.8/@sourceConnections.4/@children.2" label="//@children.8/@sourceConnections.4/@children.0" sourceEnd="//@children.8/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="181,61" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,96"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelDriver->session.datatype/DatatypeFactory" source="//@children.8" target="//@children.0" targetEnd="//@children.8/@sourceConnections.5/@children.2" label="//@children.8/@sourceConnections.5/@children.0" sourceEnd="//@children.8/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="90,212" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="99,1"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelDriver->session.datatype/Datatype" source="//@children.8" target="//@children.2" targetEnd="//@children.8/@sourceConnections.6/@children.2" label="//@children.8/@sourceConnections.6/@children.0" sourceEnd="//@children.8/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="181,201" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelDriver->model/BindingProperties" source="//@children.8" target="//@children.9" targetEnd="//@children.8/@sourceConnections.7/@children.2" label="//@children.8/@sourceConnections.7/@children.0" sourceEnd="//@children.8/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,207" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="156,6"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelDriver->session.workspace/WorkspaceDriver" source="//@children.8" target="//@children.4" targetEnd="//@children.8/@sourceConnections.8/@children.2" label="//@children.8/@sourceConnections.8/@children.0" sourceEnd="//@children.8/@sourceConnections.8/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="5,212" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="273,1"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="model/ModelDriver->model/PortCCA" source="//@children.8" target="//@children.11" targetEnd="//@children.8/@sourceConnections.9/@children.2" label="//@children.8/@sourceConnections.9/@children.0" sourceEnd="//@children.8/@sourceConnections.9/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="171,-10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-2,300"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="model/ModelDriver->session.datatype/DatatypeFactory" source="//@children.8" target="//@children.0" targetEnd="//@children.8/@sourceConnections.10/@children.2" label="//@children.8/@sourceConnections.10/@children.0" sourceEnd="//@children.8/@sourceConnections.10/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="181,91" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,66"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelDriver->session.datatype/DatatypeFactory" source="//@children.8" target="//@children.0" targetEnd="//@children.8/@sourceConnections.11/@children.2" label="//@children.8/@sourceConnections.11/@children.0" sourceEnd="//@children.8/@sourceConnections.11/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="60,212" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,1"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelDriver->java.lang/String" source="//@children.8" target="//@children.17" targetEnd="//@children.8/@sourceConnections.12/@children.2" label="//@children.8/@sourceConnections.12/@children.0" sourceEnd="//@children.8/@sourceConnections.12/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="181,106" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,645"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelDriver->session.datatype/DatatypeFactory" source="//@children.8" target="//@children.0" targetEnd="//@children.8/@sourceConnections.13/@children.2" label="//@children.8/@sourceConnections.13/@children.0" sourceEnd="//@children.8/@sourceConnections.13/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,212" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="79,1"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelDriver->session.datatype/DatatypeFactory" source="//@children.8" target="//@children.0" targetEnd="//@children.8/@sourceConnections.14/@children.2" label="//@children.8/@sourceConnections.14/@children.0" sourceEnd="//@children.8/@sourceConnections.14/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,212" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="129,1"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelDriver->session.datatype/DatatypeFactory" source="//@children.8" target="//@children.0" targetEnd="//@children.8/@sourceConnections.15/@children.2" label="//@children.8/@sourceConnections.15/@children.0" sourceEnd="//@children.8/@sourceConnections.15/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="110,212" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,1"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.2 //@children.8/@sourceConnections.7 //@children.13/@sourceConnections.3 //@children.15/@sourceConnections.6 //@children.1/@sourceConnections.3 //@children.14/@sourceConnections.0 //@children.16/@sourceConnections.0 //@children.6/@sourceConnections.2" name="BindingProperties" location="890,-1120" size="156,103" id="model/BindingProperties" runTimeClassModel="BindingProperties(IZ),startNew(),packSize()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,54">
+      <children xsi:type="editmodel:MethodEditModel" name="BindingProperties" id="model/BindingProperties#BindingProperties(IZ)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="packSize" id="model/BindingProperties#packSize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startNew" id="model/BindingProperties#startNew()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="model/BindingProperties@bindingProp+model/AbstractPort@" source="//@children.9" target="//@children.14" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="bindingProp" location="147,1" id="model/BindingProperties@bindingProp+model/AbstractPort@|model/BindingProperties#bindingProp" attachSource="true" multiplicityLabel="//@children.9/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.9/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - bindingProp" location="1043,-1140" size="66,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1023,-1140" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="8,122" id="model/BindingProperties@bindingProp+model/AbstractPort@|model/AbstractPort#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.13/@sourceConnections.0 //@children.15/@sourceConnections.0 //@children.1/@sourceConnections.0 //@children.7/@sourceConnections.1 //@children.6/@sourceConnections.1" name="ModelEmulator" location="614,-1080" size="190,170" id="model/ModelEmulator" runTimeClassModel="show(),getEmulatedPrimitiveIntMatrix(Ljava.lang.String;),dispose(),getEmulatedFloatArray(Ljava.lang.String;),getEmulatedPrimitiveIntArray(Ljava.lang.String;),getEmulatedFloatMatrix(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="167,108">
+      <children xsi:type="editmodel:MethodEditModel" name="dispose" id="model/ModelEmulator#dispose()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEmulatedFloatArray" id="model/ModelEmulator#getEmulatedFloatArray(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEmulatedFloatMatrix" id="model/ModelEmulator#getEmulatedFloatMatrix(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEmulatedPrimitiveIntArray" id="model/ModelEmulator#getEmulatedPrimitiveIntArray(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEmulatedPrimitiveIntMatrix" id="model/ModelEmulator#getEmulatedPrimitiveIntMatrix(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="show" id="model/ModelEmulator#show()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="model/ModelEmulator@modelEmu+femoop_test/FemoopDiscrete@" source="//@children.10" target="//@children.13" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="modelEmu" location="190,1" id="model/ModelEmulator@modelEmu+femoop_test/FemoopDiscrete@|model/ModelEmulator#modelEmu" attachSource="true" multiplicityLabel="//@children.10/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.10/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - modelEmu" location="739,-1100" size="58,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="811,-1073" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,555" id="model/ModelEmulator@modelEmu+femoop_test/FemoopDiscrete@|femoop_test/FemoopDiscrete#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="model/ModelEmulator@modelEmu+femoop_test/FemoopNumerical@" source="//@children.10" target="//@children.15" targetEnd="//@children.10/@sourceConnections.1/@children.2" label="//@children.10/@sourceConnections.1/@children.0" sourceEnd="//@children.10/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="modelEmu" location="190,111" id="model/ModelEmulator@modelEmu+femoop_test/FemoopNumerical@|model/ModelEmulator#modelEmu" attachSource="true" multiplicityLabel="//@children.10/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.10/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - modelEmu" location="811,-990" size="58,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="811,-963" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,61" id="model/ModelEmulator@modelEmu+femoop_test/FemoopNumerical@|femoop_test/FemoopNumerical#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="model/ModelEmulator@modelEmu+paradise_test/TreeMapPriorityQueue@" source="//@children.10" target="//@children.1" targetEnd="//@children.10/@sourceConnections.2/@children.2" label="//@children.10/@sourceConnections.2/@children.0" sourceEnd="//@children.10/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="modelEmu" location="190,75" id="model/ModelEmulator@modelEmu+paradise_test/TreeMapPriorityQueue@|model/ModelEmulator#modelEmu" attachSource="true" multiplicityLabel="//@children.10/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.10/@sourceConnections.2/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - modelEmu" location="811,-1026" size="58,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="811,-999" size="6,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,99" id="model/ModelEmulator@modelEmu+paradise_test/TreeMapPriorityQueue@|paradise_test/TreeMapPriorityQueue#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ModelEmulator->java.lang/String" source="//@children.10" target="//@children.17" targetEnd="//@children.10/@sourceConnections.3/@children.2" label="//@children.10/@sourceConnections.3/@children.0" sourceEnd="//@children.10/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="190,86" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,866"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.5/@sourceConnections.1 //@children.8/@sourceConnections.2 //@children.8/@sourceConnections.9 //@children.13/@sourceConnections.2 //@children.15/@sourceConnections.2 //@children.15/@sourceConnections.3 //@children.15/@sourceConnections.4 //@children.15/@sourceConnections.5 //@children.1/@sourceConnections.1 //@children.14/@sourceConnections.1 //@children.3/@sourceConnections.0" name="PortCCA" location="1360,-851" size="201,301" id="model/PortCCA" runTimeClassModel="isEmpty(),toArray(),addTerm(Lsession.datatype.Datatype;Lsession.datatype.Datatype;),size(),getName(),getTerm(),hasNextTerm(Lsession.datatype.Datatype;),getTerm(Lsession.datatype.Datatype;),nextTerm(Lsession.datatype.Datatype;),term,isProvides(),isUses(),startIterator(),tailTerms(Lsession.datatype.Datatype;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,234">
+      <children xsi:type="editmodel:MethodEditModel" name="addTerm" id="model/PortCCA#addTerm(Lsession.datatype.Datatype;Lsession.datatype.Datatype;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="model/PortCCA#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTerm" id="model/PortCCA#getTerm()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTerm" id="model/PortCCA#getTerm(Lsession.datatype.Datatype;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasNextTerm" id="model/PortCCA#hasNextTerm(Lsession.datatype.Datatype;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isEmpty" id="model/PortCCA#isEmpty()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isProvides" id="model/PortCCA#isProvides()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isUses" id="model/PortCCA#isUses()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nextTerm" id="model/PortCCA#nextTerm(Lsession.datatype.Datatype;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="size" id="model/PortCCA#size()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startIterator" id="model/PortCCA#startIterator()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tailTerms" id="model/PortCCA#tailTerms(Lsession.datatype.Datatype;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toArray" id="model/PortCCA#toArray()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="session.datatype/Datatype@term+model/PortCCA@" source="//@children.11" target="//@children.2" targetEnd="//@children.11/@sourceConnections.0/@children.2" label="//@children.11/@sourceConnections.0/@children.0" sourceEnd="//@children.11/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="166,300" id="session.datatype/Datatype@term+model/PortCCA@|model/PortCCA#" attachSource="true" roleLabel="//@children.11/@sourceConnections.0/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="1518,-544" size="0,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="term" location="0,20" id="session.datatype/Datatype@term+model/PortCCA@|session.datatype/Datatype#term" multiplicityLabel="//@children.11/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.11/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" + term" location="2760,-153" size="33,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="2775,-180" size="18,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="model/PortCCA@elemMat+model.mechanics/AbstractAlgebraic@" source="//@children.11" target="//@children.3" targetEnd="//@children.11/@sourceConnections.1/@children.2" label="//@children.11/@sourceConnections.1/@children.0" sourceEnd="//@children.11/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="elemMat" location="166,0" id="model/PortCCA@elemMat+model.mechanics/AbstractAlgebraic@|model/PortCCA#elemMat" attachSource="true" multiplicityLabel="//@children.11/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.11/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" # elemMat" location="1467,-872" size="51,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1532,-872" size="18,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,120" id="model/PortCCA@elemMat+model.mechanics/AbstractAlgebraic@|model.mechanics/AbstractAlgebraic#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="model/PortCCA@nodeSet+model.mechanics/AbstractAlgebraic@" source="//@children.11" target="//@children.3" targetEnd="//@children.11/@sourceConnections.2/@children.2" label="//@children.11/@sourceConnections.2/@children.0" sourceEnd="//@children.11/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="nodeSet" location="183,20" id="model/PortCCA@nodeSet+model.mechanics/AbstractAlgebraic@|model/PortCCA#nodeSet" attachSource="true" multiplicityLabel="//@children.11/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.11/@sourceConnections.2/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" # nodeSet" location="1483,-872" size="52,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1549,-872" size="18,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,90" id="model/PortCCA@nodeSet+model.mechanics/AbstractAlgebraic@|model.mechanics/AbstractAlgebraic#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="model/PortCCA@indVec+model.mechanics/AbstractAlgebraic@" source="//@children.11" target="//@children.3" targetEnd="//@children.11/@sourceConnections.3/@children.2" label="//@children.11/@sourceConnections.3/@children.0" sourceEnd="//@children.11/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="indVec" location="149,0" id="model/PortCCA@indVec+model.mechanics/AbstractAlgebraic@|model/PortCCA#indVec" attachSource="true" multiplicityLabel="//@children.11/@sourceConnections.3/@children.1/@children.1" roleLabel="//@children.11/@sourceConnections.3/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" # indVec" location="1456,-872" size="45,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1515,-872" size="18,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,121" id="model/PortCCA@indVec+model.mechanics/AbstractAlgebraic@|model.mechanics/AbstractAlgebraic#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="model/PortCCA@elemSet+model.mechanics/AbstractAlgebraic@" source="//@children.11" target="//@children.3" targetEnd="//@children.11/@sourceConnections.4/@children.2" label="//@children.11/@sourceConnections.4/@children.0" sourceEnd="//@children.11/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="elemSet" location="201,10" id="model/PortCCA@elemSet+model.mechanics/AbstractAlgebraic@|model/PortCCA#elemSet" attachSource="true" multiplicityLabel="//@children.11/@sourceConnections.4/@children.1/@children.1" roleLabel="//@children.11/@sourceConnections.4/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" # elemSet" location="1567,-835" size="50,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1567,-862" size="18,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,121" id="model/PortCCA@elemSet+model.mechanics/AbstractAlgebraic@|model.mechanics/AbstractAlgebraic#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/PortCCA->session.datatype/Datatype" source="//@children.11" target="//@children.2" targetEnd="//@children.11/@sourceConnections.5/@children.2" label="//@children.11/@sourceConnections.5/@children.0" sourceEnd="//@children.11/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="201,291" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/PortCCA->java.lang/String" source="//@children.11" target="//@children.17" targetEnd="//@children.11/@sourceConnections.6/@children.2" label="//@children.11/@sourceConnections.6/@children.0" sourceEnd="//@children.11/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="201,151" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1160"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.13/@sourceConnections.1" name="Emulated" location="960,210" size="102,81" id="model/Emulated" runTimeClassModel="name">
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,18"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/Emulated->java.lang/String" source="//@children.12" target="//@children.17" targetEnd="//@children.12/@sourceConnections.0/@children.2" label="//@children.12/@sourceConnections.0/@children.0" sourceEnd="//@children.12/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="102,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,1543"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.0" name="FemoopDiscrete" location="1180,-510" size="230,575" id="femoop_test/FemoopDiscrete" runTimeClassModel="getProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;),femoop_test.FemoopDiscrete.ElemSetProvidesPort,femoop_test.FemoopDiscrete.NodeSetProvidesPort,operate(),FemoopDiscrete(Ljava.lang.String;Lmodel.ModelEmulator;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,54">
+      <children xsi:type="editmodel:MethodEditModel" name="FemoopDiscrete" id="femoop_test/FemoopDiscrete#FemoopDiscrete(Ljava.lang.String;Lmodel.ModelEmulator;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getProvidesPort" id="femoop_test/FemoopDiscrete#getProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="operate" id="femoop_test/FemoopDiscrete#operate()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="177,462">
+      <children xsi:type="editmodel:ClassEditModel" name="ElemSetProvidesPort" size="176,193" id="femoop_test/FemoopDiscrete$ElemSetProvidesPort" runTimeClassModel="isEmpty(),getTerm(Lsession.datatype.Datatype;),toArray(),addTerm(Lsession.datatype.Datatype;Lsession.datatype.Datatype;),size(),getTerm(),map,tailTerms(Lsession.datatype.Datatype;)">
+        <children xsi:type="editmodel:CompartmentEditModel" size="68,18">
+          <children xsi:type="editmodel:AttributeEditModel" name="map" id="femoop_test/FemoopDiscrete$ElemSetProvidesPort#map"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="72,126">
+          <children xsi:type="editmodel:MethodEditModel" name="addTerm" id="femoop_test/FemoopDiscrete$ElemSetProvidesPort#addTerm(Lsession.datatype.Datatype;Lsession.datatype.Datatype;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getTerm" id="femoop_test/FemoopDiscrete$ElemSetProvidesPort#getTerm()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getTerm" id="femoop_test/FemoopDiscrete$ElemSetProvidesPort#getTerm(Lsession.datatype.Datatype;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="isEmpty" id="femoop_test/FemoopDiscrete$ElemSetProvidesPort#isEmpty()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="size" id="femoop_test/FemoopDiscrete$ElemSetProvidesPort#size()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="tailTerms" id="femoop_test/FemoopDiscrete$ElemSetProvidesPort#tailTerms(Lsession.datatype.Datatype;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="toArray" id="femoop_test/FemoopDiscrete$ElemSetProvidesPort#toArray()"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.13/@children.2/@children.1/@sourceConnections.0 //@children.15/@children.2/@children.0/@sourceConnections.0 //@children.15/@children.2/@children.1/@sourceConnections.0" autoLocated="true" id="model/ProvidesPort&lt;-femoop_test/FemoopDiscrete$ElemSetProvidesPort" source="//@children.13/@children.2/@children.0" target="//@children.16" targetEnd="//@children.13/@children.2/@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@children.2/@children.0/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+          <children xsi:type="editmodel:AssociationEndEditModel" location="88,0" anchorKind="FixedAtEdge" attachSource="true"/>
+          <children xsi:type="editmodel:AssociationEndEditModel" location="61,139" anchorKind="FixedAtEdge"/>
+        </sourceConnections>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+      </children>
+      <children xsi:type="editmodel:ClassEditModel" name="NodeSetProvidesPort" size="177,265" id="femoop_test/FemoopDiscrete$NodeSetProvidesPort" runTimeClassModel="isEmpty(),getTerm(Lsession.datatype.Datatype;),addTerm(Lsession.datatype.Datatype;Lsession.datatype.Datatype;),toArray(),size(),tnodes,eqsArray,ns,getTerm(),neqs,NodeSetProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;),tailTerms(Lsession.datatype.Datatype;)">
+        <children xsi:type="editmodel:CompartmentEditModel" size="94,72">
+          <children xsi:type="editmodel:AttributeEditModel" name="eqsArray" id="femoop_test/FemoopDiscrete$NodeSetProvidesPort#eqsArray"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="neqs" id="femoop_test/FemoopDiscrete$NodeSetProvidesPort#neqs"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="ns" id="femoop_test/FemoopDiscrete$NodeSetProvidesPort#ns"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="tnodes" id="femoop_test/FemoopDiscrete$NodeSetProvidesPort#tnodes"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="132,144">
+          <children xsi:type="editmodel:MethodEditModel" name="NodeSetProvidesPort" id="femoop_test/FemoopDiscrete$NodeSetProvidesPort#NodeSetProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="addTerm" id="femoop_test/FemoopDiscrete$NodeSetProvidesPort#addTerm(Lsession.datatype.Datatype;Lsession.datatype.Datatype;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getTerm" id="femoop_test/FemoopDiscrete$NodeSetProvidesPort#getTerm()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getTerm" id="femoop_test/FemoopDiscrete$NodeSetProvidesPort#getTerm(Lsession.datatype.Datatype;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="isEmpty" id="femoop_test/FemoopDiscrete$NodeSetProvidesPort#isEmpty()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="size" id="femoop_test/FemoopDiscrete$NodeSetProvidesPort#size()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="tailTerms" id="femoop_test/FemoopDiscrete$NodeSetProvidesPort#tailTerms(Lsession.datatype.Datatype;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="toArray" id="femoop_test/FemoopDiscrete$NodeSetProvidesPort#toArray()"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="model/ProvidesPort&lt;-femoop_test/FemoopDiscrete$NodeSetProvidesPort" source="//@children.13/@children.2/@children.1" target="//@children.13/@children.2/@children.0/@sourceConnections.0" targetEnd="//@children.13/@children.2/@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@children.2/@children.1/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+          <children xsi:type="editmodel:AssociationEndEditModel" location="88,0" anchorKind="FixedAtEdge" attachSource="true"/>
+          <children xsi:type="editmodel:AssociationEndEditModel"/>
+        </sourceConnections>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="femoop_test/FemoopDiscrete->model/ModelEmulator" source="//@children.13" target="//@children.10" targetEnd="//@children.13/@sourceConnections.0/@children.2" label="//@children.13/@sourceConnections.0/@children.0" sourceEnd="//@children.13/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="180,170"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.15/@sourceConnections.1" autoLocated="true" id="model/Emulated&lt;-femoop_test/FemoopDiscrete" source="//@children.13" target="//@children.12" targetEnd="//@children.13/@sourceConnections.1/@children.1" sourceEnd="//@children.13/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="115,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="50,81" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="femoop_test/FemoopDiscrete->model/PortCCA" source="//@children.13" target="//@children.11" targetEnd="//@children.13/@sourceConnections.2/@children.2" label="//@children.13/@sourceConnections.2/@children.0" sourceEnd="//@children.13/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="204,1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="24,302"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="femoop_test/FemoopDiscrete->model/BindingProperties" source="//@children.13" target="//@children.9" targetEnd="//@children.13/@sourceConnections.3/@children.2" label="//@children.13/@sourceConnections.3/@children.0" sourceEnd="//@children.13/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="156,93"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="femoop_test/FemoopDiscrete->java.lang/String" source="//@children.13" target="//@children.17" targetEnd="//@children.13/@sourceConnections.4/@children.2" label="//@children.13/@sourceConnections.4/@children.0" sourceEnd="//@children.13/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="230,97" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1447"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.9/@sourceConnections.0 //@children.16/@sourceConnections.2" name="AbstractPort" location="1029,-1313" size="119,121" id="model/AbstractPort" runTimeClassModel="nextTerm(Lsession.datatype.Datatype;),getName(),hasNextTerm(Lsession.datatype.Datatype;),AbstractPort(Ljava.lang.String;Lmodel.BindingProperties;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,72">
+      <children xsi:type="editmodel:MethodEditModel" name="AbstractPort" location="805,689" id="model/AbstractPort#AbstractPort(Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="model/AbstractPort#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasNextTerm" id="model/AbstractPort#hasNextTerm(Lsession.datatype.Datatype;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nextTerm" id="model/AbstractPort#nextTerm(Lsession.datatype.Datatype;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="model/AbstractPort->model/BindingProperties" source="//@children.14" target="//@children.9" targetEnd="//@children.14/@sourceConnections.0/@children.2" label="//@children.14/@sourceConnections.0/@children.0" sourceEnd="//@children.14/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,93"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.16/@sourceConnections.6" autoLocated="true" id="model/PortCCA&lt;-model/AbstractPort" source="//@children.14" target="//@children.11" targetEnd="//@children.14/@sourceConnections.1/@children.1" sourceEnd="//@children.14/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="100,300" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/AbstractPort->session.datatype/Datatype" source="//@children.14" target="//@children.2" targetEnd="//@children.14/@sourceConnections.2/@children.2" label="//@children.14/@sourceConnections.2/@children.0" sourceEnd="//@children.14/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,111" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="session.datatype/DatatypeFactory@datatypeFactory+model/AbstractPort@" source="//@children.14" target="//@children.0" targetEnd="//@children.14/@sourceConnections.3/@children.2" label="//@children.14/@sourceConnections.3/@children.0" sourceEnd="//@children.14/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,111" id="session.datatype/DatatypeFactory@datatypeFactory+model/AbstractPort@|model/AbstractPort#" attachSource="true" roleLabel="//@children.14/@sourceConnections.3/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="1155,-1223" size="0,13" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="datatypeFactory" location="10,0" id="session.datatype/DatatypeFactory@datatypeFactory+model/AbstractPort@|session.datatype/DatatypeFactory#datatypeFactory" multiplicityLabel="//@children.14/@sourceConnections.3/@children.2/@children.1" roleLabel="//@children.14/@sourceConnections.3/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - datatypeFactory" location="1315,-1072" size="89,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1295,-1072" size="6,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="model/AbstractPort->session.datatype/DatatypeFactory" source="//@children.14" target="//@children.0" targetEnd="//@children.14/@sourceConnections.4/@children.2" label="//@children.14/@sourceConnections.4/@children.0" sourceEnd="//@children.14/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,121" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,-10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="model/AbstractPort->session.datatype/DatatypeFactory" source="//@children.14" target="//@children.0" targetEnd="//@children.14/@sourceConnections.5/@children.2" label="//@children.14/@sourceConnections.5/@children.0" sourceEnd="//@children.14/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,101" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="model/AbstractPort->session.datatype/DatatypeFactory" source="//@children.14" target="//@children.0" targetEnd="//@children.14/@sourceConnections.6/@children.2" label="//@children.14/@sourceConnections.6/@children.0" sourceEnd="//@children.14/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="108,121" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,-20"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/AbstractPort->java.lang/String" source="//@children.14" target="//@children.17" targetEnd="//@children.14/@sourceConnections.7/@children.2" label="//@children.14/@sourceConnections.7/@children.0" sourceEnd="//@children.14/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,61" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,608"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/AbstractPort->session.datatype/DatatypeFactory" source="//@children.14" target="//@children.0" targetEnd="//@children.14/@sourceConnections.8/@children.2" label="//@children.14/@sourceConnections.8/@children.0" sourceEnd="//@children.14/@sourceConnections.8/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,91" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="116,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/AbstractPort->session.datatype/DatatypeFactory" source="//@children.14" target="//@children.0" targetEnd="//@children.14/@sourceConnections.9/@children.2" label="//@children.14/@sourceConnections.9/@children.0" sourceEnd="//@children.14/@sourceConnections.9/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,81" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/AbstractPort->session.datatype/DatatypeFactory" source="//@children.14" target="//@children.0" targetEnd="//@children.14/@sourceConnections.10/@children.2" label="//@children.14/@sourceConnections.10/@children.0" sourceEnd="//@children.14/@sourceConnections.10/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,121" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,35"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/AbstractPort->session.datatype/DatatypeFactory" source="//@children.14" target="//@children.0" targetEnd="//@children.14/@sourceConnections.11/@children.2" label="//@children.14/@sourceConnections.11/@children.0" sourceEnd="//@children.14/@sourceConnections.11/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="114,121" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.1" name="FemoopNumerical" location="2379,-1030" size="244,503" id="femoop_test/FemoopNumerical" runTimeClassModel="femoop_test.FemoopNumerical.IndVecProvidesPort,femoop_test.FemoopNumerical.ElemMatSetProvidesPort,FemoopNumerical(Ljava.lang.String;Lmodel.ModelEmulator;),getProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;),operate()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="115,54">
+      <children xsi:type="editmodel:MethodEditModel" name="FemoopNumerical" location="51,184" id="femoop_test/FemoopNumerical#FemoopNumerical(Ljava.lang.String;Lmodel.ModelEmulator;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getProvidesPort" location="-3,157" id="femoop_test/FemoopNumerical#getProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="operate" location="2467,1289" id="femoop_test/FemoopNumerical#operate()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="199,390">
+      <children xsi:type="editmodel:ClassEditModel" name="ElemMatSetProvidesPort" size="199,193" id="femoop_test/FemoopNumerical$ElemMatSetProvidesPort" runTimeClassModel="getTerm(Lsession.datatype.Datatype;),isEmpty(),addTerm(Lsession.datatype.Datatype;Lsession.datatype.Datatype;),toArray(),size(),getTerm(),tailTerms(Lsession.datatype.Datatype;),e">
+        <children xsi:type="editmodel:CompartmentEditModel" size="64,18">
+          <children xsi:type="editmodel:AttributeEditModel" name="e" id="femoop_test/FemoopNumerical$ElemMatSetProvidesPort#e"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="72,126">
+          <children xsi:type="editmodel:MethodEditModel" name="addTerm" id="femoop_test/FemoopNumerical$ElemMatSetProvidesPort#addTerm(Lsession.datatype.Datatype;Lsession.datatype.Datatype;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getTerm" id="femoop_test/FemoopNumerical$ElemMatSetProvidesPort#getTerm()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getTerm" id="femoop_test/FemoopNumerical$ElemMatSetProvidesPort#getTerm(Lsession.datatype.Datatype;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="isEmpty" id="femoop_test/FemoopNumerical$ElemMatSetProvidesPort#isEmpty()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="size" id="femoop_test/FemoopNumerical$ElemMatSetProvidesPort#size()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="tailTerms" id="femoop_test/FemoopNumerical$ElemMatSetProvidesPort#tailTerms(Lsession.datatype.Datatype;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="toArray" id="femoop_test/FemoopNumerical$ElemMatSetProvidesPort#toArray()"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="model/ProvidesPort&lt;-femoop_test/FemoopNumerical$ElemMatSetProvidesPort" source="//@children.15/@children.2/@children.0" target="//@children.13/@children.2/@children.0/@sourceConnections.0" targetEnd="//@children.15/@children.2/@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.15/@children.2/@children.0/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+          <children xsi:type="editmodel:AssociationEndEditModel" location="99,0" anchorKind="FixedAtEdge" attachSource="true"/>
+          <children xsi:type="editmodel:AssociationEndEditModel"/>
+        </sourceConnections>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+      </children>
+      <children xsi:type="editmodel:ClassEditModel" name="IndVecProvidesPort" size="166,193" id="femoop_test/FemoopNumerical$IndVecProvidesPort" runTimeClassModel="isEmpty(),getTerm(Lsession.datatype.Datatype;),addTerm(Lsession.datatype.Datatype;Lsession.datatype.Datatype;),toArray(),size(),f,getTerm(),tailTerms(Lsession.datatype.Datatype;)">
+        <children xsi:type="editmodel:CompartmentEditModel" size="56,18">
+          <children xsi:type="editmodel:AttributeEditModel" name="f" id="femoop_test/FemoopNumerical$IndVecProvidesPort#f"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="72,126">
+          <children xsi:type="editmodel:MethodEditModel" name="addTerm" id="femoop_test/FemoopNumerical$IndVecProvidesPort#addTerm(Lsession.datatype.Datatype;Lsession.datatype.Datatype;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getTerm" id="femoop_test/FemoopNumerical$IndVecProvidesPort#getTerm()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getTerm" id="femoop_test/FemoopNumerical$IndVecProvidesPort#getTerm(Lsession.datatype.Datatype;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="isEmpty" id="femoop_test/FemoopNumerical$IndVecProvidesPort#isEmpty()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="size" id="femoop_test/FemoopNumerical$IndVecProvidesPort#size()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="tailTerms" id="femoop_test/FemoopNumerical$IndVecProvidesPort#tailTerms(Lsession.datatype.Datatype;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="toArray" id="femoop_test/FemoopNumerical$IndVecProvidesPort#toArray()"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="model/ProvidesPort&lt;-femoop_test/FemoopNumerical$IndVecProvidesPort" source="//@children.15/@children.2/@children.1" target="//@children.13/@children.2/@children.0/@sourceConnections.0" targetEnd="//@children.15/@children.2/@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.15/@children.2/@children.1/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+          <children xsi:type="editmodel:AssociationEndEditModel" location="83,0" anchorKind="FixedAtEdge" attachSource="true"/>
+          <children xsi:type="editmodel:AssociationEndEditModel"/>
+        </sourceConnections>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="femoop_test/FemoopNumerical->model/ModelEmulator" source="//@children.15" target="//@children.10" targetEnd="//@children.15/@sourceConnections.0/@children.2" label="//@children.15/@sourceConnections.0/@children.0" sourceEnd="//@children.15/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,503" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="190,20"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="model/Emulated&lt;-femoop_test/FemoopNumerical" source="//@children.15" target="//@children.13/@sourceConnections.1" targetEnd="//@children.15/@sourceConnections.1/@children.1" sourceEnd="//@children.15/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="122,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1883,1435" attachSource="true"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="model/PortCCA@nodeSet+femoop_test/FemoopNumerical@" source="//@children.15" target="//@children.11" targetEnd="//@children.15/@sourceConnections.2/@children.2" label="//@children.15/@sourceConnections.2/@children.0" sourceEnd="//@children.15/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1" id="model/PortCCA@nodeSet+femoop_test/FemoopNumerical@|femoop_test/FemoopNumerical#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="nodeSet" location="183,290" id="model/PortCCA@nodeSet+femoop_test/FemoopNumerical@|model/PortCCA#nodeSet" multiplicityLabel="//@children.15/@sourceConnections.2/@children.2/@children.1" roleLabel="//@children.15/@sourceConnections.2/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - nodeSet" location="1485,-544" size="50,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1549,-544" size="18,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="model/PortCCA@elemSet+femoop_test/FemoopNumerical@" source="//@children.15" target="//@children.11" targetEnd="//@children.15/@sourceConnections.3/@children.2" label="//@children.15/@sourceConnections.3/@children.0" sourceEnd="//@children.15/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" id="model/PortCCA@elemSet+femoop_test/FemoopNumerical@|femoop_test/FemoopNumerical#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="elemSet" location="201,280" id="model/PortCCA@elemSet+femoop_test/FemoopNumerical@|model/PortCCA#elemSet" multiplicityLabel="//@children.15/@sourceConnections.3/@children.2/@children.1" roleLabel="//@children.15/@sourceConnections.3/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - elemSet" location="1567,-565" size="48,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1567,-592" size="18,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="model/PortCCA@anaModel+femoop_test/FemoopNumerical@" source="//@children.15" target="//@children.11" targetEnd="//@children.15/@sourceConnections.4/@children.2" label="//@children.15/@sourceConnections.4/@children.0" sourceEnd="//@children.15/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,11" id="model/PortCCA@anaModel+femoop_test/FemoopNumerical@|femoop_test/FemoopNumerical#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="anaModel" location="166,290" id="model/PortCCA@anaModel+femoop_test/FemoopNumerical@|model/PortCCA#anaModel" multiplicityLabel="//@children.15/@sourceConnections.4/@children.2/@children.1" roleLabel="//@children.15/@sourceConnections.4/@children.2/@children.0" navigable="true" changeability="2">
+        <children xsi:type="editmodel:LabelEditModel" name=" - anaModel" location="1462,-544" size="56,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1532,-544" size="18,13" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="femoop_test/FemoopNumerical->model/PortCCA" source="//@children.15" target="//@children.11" targetEnd="//@children.15/@sourceConnections.5/@children.2" label="//@children.15/@sourceConnections.5/@children.0" sourceEnd="//@children.15/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,330" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="201,151"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="femoop_test/FemoopNumerical->model/BindingProperties" source="//@children.15" target="//@children.9" targetEnd="//@children.15/@sourceConnections.6/@children.2" label="//@children.15/@sourceConnections.6/@children.0" sourceEnd="//@children.15/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,7" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="156,97"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="femoop_test/FemoopNumerical->java.lang/String" source="//@children.15" target="//@children.17" targetEnd="//@children.15/@sourceConnections.7/@children.2" label="//@children.15/@sourceConnections.7/@children.0" sourceEnd="//@children.15/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="244,252" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1082"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@children.2/@children.0/@sourceConnections.0 //@children.0/@sourceConnections.1" name="ProvidesPort" location="1146,-1330" size="123,139" id="model/ProvidesPort" runTimeClassModel="toString(),isProvides(),isUses(),ProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;),startIterator()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,90">
+      <children xsi:type="editmodel:MethodEditModel" name="ProvidesPort" location="1523,253" id="model/ProvidesPort#ProvidesPort(Ljava.lang.String;Lmodel.BindingProperties;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isProvides" location="1795,300" id="model/ProvidesPort#isProvides()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isUses" location="1095,569" id="model/ProvidesPort#isUses()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startIterator" id="model/ProvidesPort#startIterator()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="model/ProvidesPort#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ProvidesPort->model/BindingProperties" source="//@children.16" target="//@children.9" targetEnd="//@children.16/@sourceConnections.0/@children.2" label="//@children.16/@sourceConnections.0/@children.0" sourceEnd="//@children.16/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,129" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ProvidesPort->session.datatype/Datatype" source="//@children.16" target="//@children.2" targetEnd="//@children.16/@sourceConnections.1/@children.2" label="//@children.16/@sourceConnections.1/@children.0" sourceEnd="//@children.16/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="123,129" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="model/AbstractPort&lt;-model/ProvidesPort" source="//@children.16" target="//@children.14" targetEnd="//@children.16/@sourceConnections.2/@children.1" sourceEnd="//@children.16/@sourceConnections.2/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="63,140" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,1"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="model/ProvidesPort->session.datatype/DatatypeFactory" source="//@children.16" target="//@children.0" targetEnd="//@children.16/@sourceConnections.3/@children.2" label="//@children.16/@sourceConnections.3/@children.0" sourceEnd="//@children.16/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="122,139" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,-10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ProvidesPort->session.datatype/DatatypeFactory" source="//@children.16" target="//@children.0" targetEnd="//@children.16/@sourceConnections.4/@children.2" label="//@children.16/@sourceConnections.4/@children.0" sourceEnd="//@children.16/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="113,139" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="model/ProvidesPort->session.datatype/DatatypeFactory" source="//@children.16" target="//@children.0" targetEnd="//@children.16/@sourceConnections.5/@children.2" label="//@children.16/@sourceConnections.5/@children.0" sourceEnd="//@children.16/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="123,109" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,20"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="model/PortCCA&lt;-model/ProvidesPort" source="//@children.16" target="//@children.14/@sourceConnections.1" targetEnd="//@children.16/@sourceConnections.6/@children.1" sourceEnd="//@children.16/@sourceConnections.6/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,133" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <bendpoints location="197,492" secondRelativeDimension="18,196" firstRelativeDimension="30,-31"/>
+      <bendpoints location="218,492" secondRelativeDimension="30,196" firstRelativeDimension="51,-42"/>
+      <bendpoints location="218,321" secondRelativeDimension="8,25" firstRelativeDimension="83,-193"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ProvidesPort->java.lang/String" source="//@children.16" target="//@children.17" targetEnd="//@children.16/@sourceConnections.7/@children.2" label="//@children.16/@sourceConnections.7/@children.0" sourceEnd="//@children.16/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="123,70" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,600"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ProvidesPort->session.datatype/DatatypeFactory" source="//@children.16" target="//@children.0" targetEnd="//@children.16/@sourceConnections.8/@children.2" label="//@children.16/@sourceConnections.8/@children.0" sourceEnd="//@children.16/@sourceConnections.8/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="123,129" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="5,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ProvidesPort->session.datatype/DatatypeFactory" source="//@children.16" target="//@children.0" targetEnd="//@children.16/@sourceConnections.9/@children.2" label="//@children.16/@sourceConnections.9/@children.0" sourceEnd="//@children.16/@sourceConnections.9/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="123,119" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="15,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ProvidesPort->session.datatype/DatatypeFactory" source="//@children.16" target="//@children.0" targetEnd="//@children.16/@sourceConnections.10/@children.2" label="//@children.16/@sourceConnections.10/@children.0" sourceEnd="//@children.16/@sourceConnections.10/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="83,139" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,16"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="model/ProvidesPort->session.datatype/DatatypeFactory" source="//@children.16" target="//@children.0" targetEnd="//@children.16/@sourceConnections.11/@children.2" label="//@children.16/@sourceConnections.11/@children.0" sourceEnd="//@children.16/@sourceConnections.11/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,13" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,139" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,14"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.3 //@children.1/@sourceConnections.4 //@children.3/@sourceConnections.1 //@children.4/@sourceConnections.9 //@children.5/@sourceConnections.3 //@children.6/@sourceConnections.10 //@children.6/@sourceConnections.11 //@children.7/@sourceConnections.4 //@children.8/@sourceConnections.12 //@children.10/@sourceConnections.3 //@children.11/@sourceConnections.6 //@children.12/@sourceConnections.0 //@children.13/@sourceConnections.4 //@children.14/@sourceConnections.7 //@children.15/@sourceConnections.7 //@children.16/@sourceConnections.7 //@children.6/@sourceConnections.13 //@children.6/@sourceConnections.15 //@children.6/@sourceConnections.17" name="String" location="4360,-1860" size="260,1543" id="java.lang/String">
+    <children xsi:type="editmodel:CompartmentEditModel" size="237,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="cASE_INSENSITIVE_ORDER" id="java.lang/String#cASE_INSENSITIVE_ORDER"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,1476">
+      <children xsi:type="editmodel:MethodEditModel" name="&lt;clinit>" id="java.lang/String#&lt;clinit>()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="String" id="java.lang/String#String(Ljava.lang.StringBuilder;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="String" id="java.lang/String#String([BII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="String" id="java.lang/String#String([B)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="String" id="java.lang/String#String([CII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="String" id="java.lang/String#String([III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="String" id="java.lang/String#String(Ljava.lang.StringBuffer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="String" id="java.lang/String#String([C)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="String" id="java.lang/String#String(II[C)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="String" id="java.lang/String#String([BIILjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="String" id="java.lang/String#String([BI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="String" id="java.lang/String#String([BLjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="String" id="java.lang/String#String(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="String" id="java.lang/String#String([BIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="String" id="java.lang/String#String()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="charAt" id="java.lang/String#charAt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="codePointAt" id="java.lang/String#codePointAt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="codePointBefore" id="java.lang/String#codePointBefore(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="codePointCount" id="java.lang/String#codePointCount(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="compareTo" id="java.lang/String#compareTo(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="compareTo" id="java.lang/String#compareTo(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="compareToIgnoreCase" id="java.lang/String#compareToIgnoreCase(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="concat" id="java.lang/String#concat(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contains" id="java.lang/String#contains(Ljava.lang.CharSequence;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contentEquals" id="java.lang/String#contentEquals(Ljava.lang.StringBuffer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contentEquals" id="java.lang/String#contentEquals(Ljava.lang.CharSequence;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copyValueOf" id="java.lang/String#copyValueOf([CII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copyValueOf" id="java.lang/String#copyValueOf([C)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="endsWith" id="java.lang/String#endsWith(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="java.lang/String#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equalsIgnoreCase" id="java.lang/String#equalsIgnoreCase(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="format" id="java.lang/String#format(Ljava.util.Locale;Ljava.lang.String;[Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="format" id="java.lang/String#format(Ljava.lang.String;[Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBytes" id="java.lang/String#getBytes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBytes" id="java.lang/String#getBytes(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBytes" id="java.lang/String#getBytes(II[BI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getChars" id="java.lang/String#getChars([CI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getChars" id="java.lang/String#getChars(II[CI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="java.lang/String#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="indexOf" id="java.lang/String#indexOf(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="indexOf" id="java.lang/String#indexOf(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="indexOf" id="java.lang/String#indexOf([CII[CIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="indexOf" id="java.lang/String#indexOf(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="indexOf" id="java.lang/String#indexOf(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="intern" id="java.lang/String#intern()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lastIndexOf" id="java.lang/String#lastIndexOf(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lastIndexOf" id="java.lang/String#lastIndexOf(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lastIndexOf" id="java.lang/String#lastIndexOf([CII[CIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lastIndexOf" id="java.lang/String#lastIndexOf(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lastIndexOf" id="java.lang/String#lastIndexOf(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="length" id="java.lang/String#length()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="matches" id="java.lang/String#matches(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="offsetByCodePoints" id="java.lang/String#offsetByCodePoints(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="regionMatches" id="java.lang/String#regionMatches(ZILjava.lang.String;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="regionMatches" id="java.lang/String#regionMatches(ILjava.lang.String;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="replace" id="java.lang/String#replace(Ljava.lang.CharSequence;Ljava.lang.CharSequence;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="replace" id="java.lang/String#replace(CC)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="replaceAll" id="java.lang/String#replaceAll(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="replaceFirst" id="java.lang/String#replaceFirst(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="split" id="java.lang/String#split(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="split" id="java.lang/String#split(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startsWith" id="java.lang/String#startsWith(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startsWith" id="java.lang/String#startsWith(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="subSequence" id="java.lang/String#subSequence(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="substring" id="java.lang/String#substring(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="substring" id="java.lang/String#substring(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toCharArray" id="java.lang/String#toCharArray()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toLowerCase" id="java.lang/String#toLowerCase(Ljava.util.Locale;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toLowerCase" id="java.lang/String#toLowerCase()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="java.lang/String#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toUpperCase" id="java.lang/String#toUpperCase()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toUpperCase" id="java.lang/String#toUpperCase(Ljava.util.Locale;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="trim" id="java.lang/String#trim()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="valueOf" id="java.lang/String#valueOf(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="valueOf" id="java.lang/String#valueOf(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="valueOf" id="java.lang/String#valueOf(D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="valueOf" id="java.lang/String#valueOf(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="valueOf" id="java.lang/String#valueOf(C)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="valueOf" id="java.lang/String#valueOf(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="valueOf" id="java.lang/String#valueOf([CII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="valueOf" id="java.lang/String#valueOf([C)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="valueOf" id="java.lang/String#valueOf(J)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true"/>
+</editmodel:ClassDiagramEditModel>

@@ -1,0 +1,35 @@
+  program    
+
+     x (y,b);
+
+
+      var 
+       y:integer;
+    
+
+procedure compila(x,y,b: integer);
+
+var x:integer;
+    
+begin
+
+end;
+
+begin
+
+
+         while i<100 do
+            begin
+		while i<=200 do
+		begin
+ 		  while (((((i>300))))) do
+		  begin
+			i:=i+3568.89E-78;
+			i:=2
+		  end
+		end 
+	    end
+
+
+end.
+

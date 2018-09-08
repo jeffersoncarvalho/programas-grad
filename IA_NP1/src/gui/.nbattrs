@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="Configuracao.java">
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="Configuracao"/>
+    </fileobject>
+    <fileobject name="InterfaceMain.java">
+        <attr name="class_dependency_javax.swing.JPanel" stringvalue="ControlPanel"/>
+        <attr name="class_dependency_javax.swing.JFrame" stringvalue="InterfaceMain"/>
+    </fileobject>
+    <fileobject name="GridPanel.java">
+        <attr name="class_dependency_javax.swing.JPanel" stringvalue="GridPanel"/>
+    </fileobject>
+</attributes>

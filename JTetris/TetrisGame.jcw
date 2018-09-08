@@ -1,0 +1,28 @@
+! ** JCreator Workspace File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.00"
+LABEL := "TetrisGame"
+
+! Start Project Structure
+#[BeginProject]SOURCE := "\\Tetris.jcp" #[EndProject]
+
+! Start Last Document Structure
+#[BeginFile]SOURCE := "\\src\\tetris\\gui\\Interface.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\gui\\DrawPaneForNext.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\table\\TableRules.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\gui\\DrawPanel.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\piece\\PieceT.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\piece\\PieceSquare.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\piece\\PieceL.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\piece\\PieceI.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\piece\\PieceN.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\util\\Player.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\table\\Table.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\gui\\ControlPanel.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\gui\\KeyHandler.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\util\\GameController.java" #[EndFile]
+#[BeginFile]SOURCE := "\\src\\tetris\\util\\Teste.java" #[EndFile]
+
+! Start Breakpoint Structure
+
